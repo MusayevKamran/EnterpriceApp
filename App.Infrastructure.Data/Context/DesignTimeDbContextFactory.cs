@@ -8,19 +8,23 @@ using System.Text;
 
 namespace App.Infrastructure.Data.Context
 {
-    public class EventStoreSQLContextFactory : IDesignTimeDbContextFactory<EventStoreSQLContext>
+    public class DesignTimeDbContextFactory<T> : IDesignTimeDbContextFactory<T>
+     where T : DbContext
     {
-        public EventStoreSQLContext CreateDbContext(string[] args)
+        public T CreateDbContext(string[] args)
         {
             IConfigurationRoot configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
                 .Build();
-            var builder = new DbContextOptionsBuilder<EventStoreSQLContext>();
+
+            var builder = new DbContextOptionsBuilder<T>();
             var connectionString = configuration.GetConnectionString("DefaultConnection");
             builder.UseSqlServer(connectionString);
-
-            return new EventStoreSQLContext(builder.Options);
+            var dbContext = (T)Activator.CreateInstance(
+                typeof(T),
+                builder.Options);
+            return dbContext;
         }
     }
 }

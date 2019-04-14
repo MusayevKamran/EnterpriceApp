@@ -22,12 +22,13 @@ namespace App.Infrastructure.Data.Repository.EventSourcing
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _context.Dispose();
         }
 
         public void Store(StoredEvent theEvent)
         {
-            throw new NotImplementedException();
+            _context.StoredEvent.Add(theEvent);
+            _context.SaveChanges();
         }
     }
 }

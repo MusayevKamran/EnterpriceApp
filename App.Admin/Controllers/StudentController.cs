@@ -21,7 +21,7 @@ namespace App.Admin.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        [Route("Student-management/list-all")]
+        [Route("student-management/list-all")]
         public IActionResult Index()
         {
             return View(_studentAppService.GetAll());
@@ -29,7 +29,7 @@ namespace App.Admin.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        [Route("Student-management/Student-details/{id:guid}")]
+        [Route("student-management/student-details/{id:guid}")]
         public IActionResult Details(Guid? id)
         {
             if (id == null)
@@ -49,7 +49,7 @@ namespace App.Admin.Controllers
 
         [HttpGet]
         [Authorize(Policy = "CanWriteStudentData")]
-        [Route("Student-management/register-new")]
+        [Route("student-management/register-new")]
         public IActionResult Create()
         {
             return View();
@@ -57,7 +57,7 @@ namespace App.Admin.Controllers
 
         [HttpPost]
         [Authorize(Policy = "CanWriteStudentData")]
-        [Route("Student-management/register-new")]
+        [Route("student-management/register-new")]
         [ValidateAntiForgeryToken]
         public IActionResult Create(StudentViewModel StudentViewModel)
         {
@@ -72,7 +72,7 @@ namespace App.Admin.Controllers
         
         [HttpGet]
         [Authorize(Policy = "CanWriteStudentData")]
-        [Route("Student-management/edit-Student/{id:guid}")]
+        [Route("student-management/edit-student/{id:guid}")]
         public IActionResult Edit(Guid? id)
         {
             if (id == null)
@@ -92,7 +92,7 @@ namespace App.Admin.Controllers
 
         [HttpPost]
         [Authorize(Policy = "CanWriteStudentData")]
-        [Route("Student-management/edit-Student/{id:guid}")]
+        [Route("student-management/edit-student/{id:guid}")]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(StudentViewModel StudentViewModel)
         {
@@ -108,7 +108,7 @@ namespace App.Admin.Controllers
 
         [HttpGet]
         [Authorize(Policy = "CanRemoveStudentData")]
-        [Route("Student-management/remove-Student/{id:guid}")]
+        [Route("student-management/remove-student/{id:guid}")]
         public IActionResult Delete(Guid? id)
         {
             if (id == null)
@@ -128,7 +128,7 @@ namespace App.Admin.Controllers
 
         [HttpPost, ActionName("Delete")]
         [Authorize(Policy = "CanRemoveStudentData")]
-        [Route("Student-management/remove-Student/{id:guid}")]
+        [Route("student-management/remove-student/{id:guid}")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(Guid id)
         {
@@ -141,7 +141,7 @@ namespace App.Admin.Controllers
         }
 
         //[AllowAnonymous]
-        //[Route("Student-management/Student-history/{id:guid}")]
+        //[Route("student-management/student-history/{id:guid}")]
         //public JsonResult History(Guid id)
         //{
         //    var StudentHistoryData = _studentAppService.GetAllHistory(id);

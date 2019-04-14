@@ -1,4 +1,5 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System.IO;
+using System.Runtime.CompilerServices;
 using App.Domain.Models;
 using App.Infrastructure.Data.Mappings;
 using JetBrains.Annotations;
@@ -15,5 +16,23 @@ namespace App.Infrastructure.Data.Context
         { }
 
         public DbSet<Student> Students { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new StudentMap());
+
+            base.OnModelCreating(modelBuilder);
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            // get the configuration from the app settings
+            var config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            // define the database to use
+            optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+        }
     }
 }
