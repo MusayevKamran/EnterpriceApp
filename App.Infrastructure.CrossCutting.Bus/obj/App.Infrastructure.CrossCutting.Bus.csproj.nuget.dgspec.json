@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj": {}
+  },
+  "projects": {
+    "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj",
+        "projectName": "App.Domain.Core",
+        "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
+        "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview-27324-5, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[3.0.0-preview.19073.11, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj",
+        "projectName": "App.Infrastructure.CrossCutting.Bus",
+        "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
+        "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj": {
+                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview-27324-5, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[3.0.0-preview.19073.11, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
