@@ -11,12 +11,12 @@ namespace App.Infrastructure.Data.Mappings
     {
         public void Configure(EntityTypeBuilder<StoredEvent> builder)
         {
-            builder.Property(c => c.Timestamp)
-                .HasColumnName("CreationDate");
+            //builder.Property(c => c.Timestamp)
+            //    .HasColumnName("CreationDate");
 
-            builder.Property(c => c.MessageType)
-                .HasColumnName("Action")
-                .HasColumnType("varchar(100)");
+            //builder.Property(c => c.MessageType)
+            //    .HasColumnName("Action")
+            //    .HasColumnType("varchar(100)");
         }
     }
 }
