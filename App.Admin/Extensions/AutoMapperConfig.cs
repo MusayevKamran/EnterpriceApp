@@ -1,6 +1,6 @@
 ﻿using System;
 using AutoMapper;
-using App.Application.AutoMapper;
+using App.Application.AutoMapper.Course;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace App.Admin.Extensions

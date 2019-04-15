@@ -16,4 +16,13 @@
     <ProjectReference Include="..\App.Infrastructure.CrossCutting.Bus\App.Infrastructure.CrossCutting.Bus.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Car\" />
+    <Folder Include="Models\Home\" />
+    <Folder Include="Models\Bank\" />
+    <Folder Include="Models\Shared\" />
+    <Folder Include="Models\Shop\" />
+    <Folder Include="Models\News\" />
+  </ItemGroup>
+
 </Project>

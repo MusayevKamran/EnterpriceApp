@@ -686,6 +686,7 @@
         "dependencies": {
           "App.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Analyzers": "3.0.0-preview3.19153.1",
           "Microsoft.EntityFrameworkCore.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0",
           "Microsoft.Extensions.Configuration": "2.2.0",

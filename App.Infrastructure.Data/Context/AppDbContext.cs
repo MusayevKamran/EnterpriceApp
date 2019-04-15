@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Runtime.CompilerServices;
-using App.Domain.Models;
-using App.Infrastructure.Data.Mappings;
+using App.Domain.Models.Course;
+using App.Infrastructure.Data.Mappings.Course;
 using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

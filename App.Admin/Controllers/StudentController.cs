@@ -1,6 +1,6 @@
 using System;
-using App.Application.Interfaces;
-using App.Application.ViewModels;
+using App.Application.Interfaces.Course;
+using App.Application.ViewModels.Course;
 using App.Domain.Core.Notifications;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
