@@ -5,6 +5,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\Bank\**" />
+    <Compile Remove="Models\Car\**" />
+    <Compile Remove="Models\Home\**" />
+    <Compile Remove="Models\News\**" />
+    <EmbeddedResource Remove="Models\Bank\**" />
+    <EmbeddedResource Remove="Models\Car\**" />
+    <EmbeddedResource Remove="Models\Home\**" />
+    <EmbeddedResource Remove="Models\News\**" />
+    <None Remove="Models\Bank\**" />
+    <None Remove="Models\Car\**" />
+    <None Remove="Models\Home\**" />
+    <None Remove="Models\News\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="8.2.2" />
     <PackageReference Include="System.ComponentModel" Version="4.3.0" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.6.0-preview3.19128.7" />
@@ -17,12 +32,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Car\" />
-    <Folder Include="Models\Home\" />
-    <Folder Include="Models\Bank\" />
-    <Folder Include="Models\Shared\" />
-    <Folder Include="Models\Shop\" />
-    <Folder Include="Models\News\" />
+    <Folder Include="Commands\Shop\Comment\" />
+    <Folder Include="Commands\Shop\Detail\" />
+    <Folder Include="Commands\Shop\Image\" />
+    <Folder Include="Commands\Shop\Seller\" />
+    <Folder Include="Commands\Shop\Product\" />
+    <Folder Include="Validations\Shop\Comment\" />
+    <Folder Include="Validations\Shop\Detail\" />
+    <Folder Include="Validations\Shop\Image\" />
+    <Folder Include="Validations\Shop\Seller\" />
+    <Folder Include="Validations\Shop\Product\" />
   </ItemGroup>
 
 </Project>

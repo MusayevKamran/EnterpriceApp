@@ -10,3 +10,15 @@ D:\NET.WEB\CQRSAPP\App\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3
 D:\NET.WEB\CQRSAPP\App\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.csproj.CopyComplete
 D:\NET.WEB\CQRSAPP\App\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.dll
 D:\NET.WEB\CQRSAPP\App\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.pdb
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.deps.json
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.dll
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.pdb
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.0\App.Domain.Core.dll
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.0\App.Domain.Core.pdb
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.csprojAssemblyReference.cache
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.csproj.CoreCompileInputs.cache
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.AssemblyInfoInputs.cache
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.AssemblyInfo.cs
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.csproj.CopyComplete
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.dll
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.pdb

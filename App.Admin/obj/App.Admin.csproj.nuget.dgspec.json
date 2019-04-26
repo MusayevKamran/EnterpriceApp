@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Admin\\App.Admin.csproj": {}
+    "D:\\NET.WEB\\EnterpriceApp\\App.Admin\\App.Admin.csproj": {}
   },
   "projects": {
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Admin\\App.Admin.csproj": {
+    "D:\\NET.WEB\\EnterpriceApp\\App.Admin\\App.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Admin\\App.Admin.csproj",
+        "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Admin\\App.Admin.csproj",
         "projectName": "App.Admin",
-        "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Admin\\App.Admin.csproj",
+        "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Admin\\App.Admin.csproj",
         "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Admin\\obj\\",
+        "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Admin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -35,14 +35,14 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Application\\App.Application.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Application\\App.Application.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Application\\App.Application.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Application\\App.Application.csproj"
               },
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj"
               },
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj"
               }
             }
           }
@@ -115,14 +115,14 @@
         }
       }
     },
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Application\\App.Application.csproj": {
+    "D:\\NET.WEB\\EnterpriceApp\\App.Application\\App.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Application\\App.Application.csproj",
+        "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Application\\App.Application.csproj",
         "projectName": "App.Application",
-        "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Application\\App.Application.csproj",
+        "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Application\\App.Application.csproj",
         "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Application\\obj\\",
+        "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -146,11 +146,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
               },
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj"
               }
             }
           }
@@ -201,14 +201,14 @@
         }
       }
     },
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj": {
+    "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj",
+        "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
         "projectName": "App.Domain.Core",
-        "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj",
+        "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\obj\\",
+        "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -276,14 +276,14 @@
         }
       }
     },
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj": {
+    "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj",
+        "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj",
         "projectName": "App.Domain",
-        "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj",
+        "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj",
         "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\obj\\",
+        "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -307,11 +307,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj"
               },
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj"
               }
             }
           }
@@ -362,14 +362,14 @@
         }
       }
     },
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj": {
+    "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj",
+        "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj",
         "projectName": "App.Infrastructure.CrossCutting.Bus",
-        "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj",
+        "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj",
         "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Bus\\obj\\",
+        "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -393,8 +393,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj"
               }
             }
           }
@@ -433,14 +433,14 @@
         }
       }
     },
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
+    "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj",
+        "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj",
         "projectName": "App.Infrastructure.CrossCutting.Identity",
-        "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj",
+        "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj",
         "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Identity\\obj\\",
+        "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -464,8 +464,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
               }
             }
           }
@@ -554,14 +554,14 @@
         }
       }
     },
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj": {
+    "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj",
+        "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj",
         "projectName": "App.Infrastructure.CrossCutting.IoC",
-        "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj",
+        "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj",
         "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.IoC\\obj\\",
+        "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -585,17 +585,17 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Application\\App.Application.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Application\\App.Application.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Application\\App.Application.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Application\\App.Application.csproj"
               },
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
               },
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj"
               },
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj"
               }
             }
           }
@@ -634,14 +634,14 @@
         }
       }
     },
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj": {
+    "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj",
+        "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj",
         "projectName": "App.Infrastructure.Data",
-        "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj",
+        "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.Data\\obj\\",
+        "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -665,8 +665,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj"
+              "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
               }
             }
           }

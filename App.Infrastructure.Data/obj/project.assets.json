@@ -4021,11 +4021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj",
+      "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj",
       "projectName": "App.Infrastructure.Data",
-      "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj",
+      "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj",
       "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-      "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.Data\\obj\\",
+      "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -4049,8 +4049,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj": {
-              "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain\\App.Domain.csproj"
+            "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
+              "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
             }
           }
         }

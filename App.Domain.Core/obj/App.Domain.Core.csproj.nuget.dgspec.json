@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj": {}
+    "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {}
   },
   "projects": {
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj": {
+    "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj",
+        "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
         "projectName": "App.Domain.Core",
-        "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\App.Domain.Core.csproj",
+        "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Domain.Core\\obj\\",
+        "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",

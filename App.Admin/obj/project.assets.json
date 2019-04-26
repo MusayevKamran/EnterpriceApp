@@ -6473,11 +6473,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Admin\\App.Admin.csproj",
+      "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Admin\\App.Admin.csproj",
       "projectName": "App.Admin",
-      "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Admin\\App.Admin.csproj",
+      "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Admin\\App.Admin.csproj",
       "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-      "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Admin\\obj\\",
+      "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Admin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -6501,14 +6501,14 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\NET.WEB\\CQRSAPP\\App\\App.Application\\App.Application.csproj": {
-              "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Application\\App.Application.csproj"
+            "D:\\NET.WEB\\EnterpriceApp\\App.Application\\App.Application.csproj": {
+              "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Application\\App.Application.csproj"
             },
-            "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
-              "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj"
+            "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
+              "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj"
             },
-            "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj": {
-              "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj"
+            "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj": {
+              "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj"
             }
           }
         }

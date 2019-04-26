@@ -228,8 +228,8 @@ namespace App.Admin.Controllers
 
                 if (result.Succeeded)
                 {
-                    // User claim for write students data
-                    await _userManager.AddClaimAsync(user, new Claim("Students", "Write"));
+                    // User claim for write seller data
+                    await _userManager.AddClaimAsync(user, new Claim("Seller", "Write"));
 
                     _logger.LogInformation("User created a new account with password.");
 
@@ -328,7 +328,7 @@ namespace App.Admin.Controllers
                     if (result.Succeeded)
                     {
                         // User claim for write students data
-                        await _userManager.AddClaimAsync(user, new Claim("Students", "Write"));
+                        await _userManager.AddClaimAsync(user, new Claim("Seller", "Write"));
 
                         await _signInManager.SignInAsync(user, isPersistent: false);
                         _logger.LogInformation("User created an account using {Name} provider.", info.LoginProvider);

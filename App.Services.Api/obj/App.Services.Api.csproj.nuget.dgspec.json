@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Services.Api\\App.Services.Api.csproj": {}
+    "D:\\NET.WEB\\EnterpriceApp\\App.Services.Api\\App.Services.Api.csproj": {}
   },
   "projects": {
-    "D:\\NET.WEB\\CQRSAPP\\App\\App.Services.Api\\App.Services.Api.csproj": {
+    "D:\\NET.WEB\\EnterpriceApp\\App.Services.Api\\App.Services.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET.WEB\\CQRSAPP\\App\\App.Services.Api\\App.Services.Api.csproj",
+        "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Services.Api\\App.Services.Api.csproj",
         "projectName": "App.Services.Api",
-        "projectPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Services.Api\\App.Services.Api.csproj",
+        "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Services.Api\\App.Services.Api.csproj",
         "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\NET.WEB\\CQRSAPP\\App\\App.Services.Api\\obj\\",
+        "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Services.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",

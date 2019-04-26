@@ -1,11 +1,8 @@
 ﻿using System.IO;
-using System.Runtime.CompilerServices;
-using App.Domain.Models.Course;
-using App.Infrastructure.Data.Mappings.Course;
-using JetBrains.Annotations;
+using App.Domain.Models.Shop;
+using App.Infrastructure.Data.Mappings.Shop;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
 
 
 namespace App.Infrastructure.Data.Context
@@ -15,11 +12,16 @@ namespace App.Infrastructure.Data.Context
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         { }
 
-        public DbSet<Student> Students { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<Detail> Details { get; set; }
+        public DbSet<Image> Images { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Seller> Sellers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new StudentMap());
+            modelBuilder.ApplyConfiguration(new CategoryMap());
 
             base.OnModelCreating(modelBuilder);
         }

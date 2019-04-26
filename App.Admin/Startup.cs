@@ -66,8 +66,8 @@ namespace App.Admin
 
             services.AddAuthorization(options =>
             {
-                options.AddPolicy("CanWriteStudentData", policy => policy.Requirements.Add(new ClaimRequirement("Students", "Write")));
-                options.AddPolicy("CanRemoveStudentData", policy => policy.Requirements.Add(new ClaimRequirement("Students", "Remove")));
+                options.AddPolicy("CanWriteCategoryData", policy => policy.Requirements.Add(new ClaimRequirement("Seller", "Write")));
+                options.AddPolicy("CanRemoveCategoryData", policy => policy.Requirements.Add(new ClaimRequirement("Seller", "Remove")));
             });
 
             // Adding MediatR for Domain Events and Notifications

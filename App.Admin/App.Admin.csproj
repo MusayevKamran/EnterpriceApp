@@ -4,6 +4,13 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Areas\Course\**" />
+    <Content Remove="Areas\Course\**" />
+    <EmbeddedResource Remove="Areas\Course\**" />
+    <None Remove="Areas\Course\**" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
@@ -23,10 +30,7 @@
 
 
   <ItemGroup>
-    <Folder Include="Areas\Course\Controllers\" />
-    <Folder Include="Areas\Course\Data\" />
-    <Folder Include="Areas\Course\Models\" />
-    <Folder Include="Areas\Course\Views\" />
+    <Folder Include="Areas\" />
   </ItemGroup>
 
 </Project>
