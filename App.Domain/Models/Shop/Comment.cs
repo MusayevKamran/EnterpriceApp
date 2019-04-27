@@ -5,7 +5,7 @@ using System.Text;
 
 namespace App.Domain.Models.Shop
 {
-    public class Comment : Entity
+    public class Comment : Entity<int>
     {
         public Comment(Guid commentId, string commentContent)
         {

@@ -3,7 +3,7 @@
 
 namespace App.Domain.Interfaces.Shop
 {
-    public interface ICommentRepository : IRepository<Comment>
+    public interface ICommentRepository : IRepository<Comment, int>
     {
     }
 }

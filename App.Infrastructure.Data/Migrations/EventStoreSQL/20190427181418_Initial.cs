@@ -13,7 +13,7 @@ namespace App.Infrastructure.Data.Migrations.EventStoreSQL
                 {
                     Id = table.Column<Guid>(nullable: false),
                     MessageType = table.Column<string>(nullable: true),
-                    AggregateId = table.Column<Guid>(nullable: false),
+                    AggregateId = table.Column<int>(nullable: false),
                     Timestamp = table.Column<DateTime>(nullable: false),
                     Data = table.Column<string>(nullable: true),
                     User = table.Column<string>(nullable: true)

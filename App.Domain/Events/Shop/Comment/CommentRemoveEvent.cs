@@ -7,11 +7,11 @@ namespace App.Domain.Events.Shop.Comment
 {
     public class CommentRemoveEvent : Event
     {
-        public CommentRemoveEvent(Guid commentId)
+        public CommentRemoveEvent(int commentId)
         {
             CommentId = commentId;
             AggregateId = commentId;
         }
-        public Guid CommentId { get; set; }
+        public int CommentId { get; set; }
     }
 }

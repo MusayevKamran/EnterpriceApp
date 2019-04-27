@@ -7,11 +7,11 @@ namespace App.Domain.Events.Shop.Category
 {
     public class CategoryRemovedEvent : Event
     {
-        public CategoryRemovedEvent(Guid categoryId)
+        public CategoryRemovedEvent(int categoryId)
         {
             CategoryId = categoryId;
             AggregateId = categoryId;
         }
-        public Guid CategoryId { get; set; }
+        public int CategoryId { get; set; }
     }
 }

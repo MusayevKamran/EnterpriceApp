@@ -24,7 +24,7 @@ namespace App.Infrastructure.Data.Migrations.EventStoreSQL
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<Guid>("AggregateId");
+                    b.Property<int>("AggregateId");
 
                     b.Property<string>("Data");
 

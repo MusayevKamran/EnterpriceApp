@@ -38,7 +38,7 @@ namespace App.Domain.CommandHandler.Shop
                 NotifyValidationErrors(request);
                 return Task.FromResult(false);
             }
-            var category = new Category(Guid.NewGuid(), request.CategoryName);
+            var category = new Category(request.CategoryId, request.CategoryName);
 
             if (_categoryRepository.GetById(category.CategoryId) != null)
             {
@@ -50,7 +50,7 @@ namespace App.Domain.CommandHandler.Shop
 
             if (Commit())
             {
-                _bus.RaiseEvent(new CategoryCreatedEvent(category.Id, category.CategoryName));
+                _bus.RaiseEvent(new CategoryCreatedEvent(category.CategoryId, category.CategoryName));
             }
             return Task.FromResult(true);
         }

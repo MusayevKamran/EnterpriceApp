@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v3.0",
-    "signature": "b33d3a174ddb8ec06c730e7be69e93d697be9cfb"
+    "signature": "5fb0bfbd7ffcd674dfc3e9d78293d2609a70b46f"
   },
   "compilationOptions": {},
   "targets": {
@@ -31,14 +31,14 @@
           }
         }
       },
-      "FluentValidation/8.2.2": {
+      "FluentValidation/8.3.0": {
         "dependencies": {
           "System.ComponentModel.Annotations": "4.6.0-preview3.19128.7"
         },
         "runtime": {
           "lib/netstandard2.0/FluentValidation.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.2.2.0"
+            "fileVersion": "8.3.0.0"
           }
         }
       },
@@ -654,7 +654,7 @@
         "dependencies": {
           "App.Domain.Core": "1.0.0",
           "App.Infrastructure.CrossCutting.Bus": "1.0.0",
-          "FluentValidation": "8.2.2",
+          "FluentValidation": "8.3.0",
           "System.ComponentModel": "4.3.0",
           "System.ComponentModel.Annotations": "4.6.0-preview3.19128.7",
           "System.Security.Claims": "4.3.0"
@@ -665,7 +665,7 @@
       },
       "App.Domain.Core/1.0.0": {
         "dependencies": {
-          "FluentValidation": "8.2.2",
+          "FluentValidation": "8.3.0",
           "MediatR": "6.0.0",
           "System.ComponentModel": "4.3.0"
         },
@@ -714,12 +714,12 @@
       "path": "automapper/8.0.0",
       "hashPath": "automapper.8.0.0.nupkg.sha512"
     },
-    "FluentValidation/8.2.2": {
+    "FluentValidation/8.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vecU0PUi85MZ/g6p3L6jxym23pdRUgsZ3wTWCLAaqrD5ig9Jf4MQA+CE2yI5d4TGO0z3bvAozqkJr+L1I6OnJg==",
-      "path": "fluentvalidation/8.2.2",
-      "hashPath": "fluentvalidation.8.2.2.nupkg.sha512"
+      "sha512": "sha512-tQULydqVfFi68qjEw4Y+P3wM1Xp7kppLpUqPVKI6u8NDwlPVTm6V96qnLWCTO4khn7WtQ1p3ysnrNTl98fdJpA==",
+      "path": "fluentvalidation/8.3.0",
+      "hashPath": "fluentvalidation.8.3.0.nupkg.sha512"
     },
     "MediatR/6.0.0": {
       "type": "package",

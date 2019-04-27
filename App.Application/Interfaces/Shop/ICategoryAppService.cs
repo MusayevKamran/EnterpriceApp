@@ -10,9 +10,9 @@ namespace App.Application.Interfaces.Shop
     {
         void Create(CategoryViewModel categoryViewModel);
         IEnumerable<CategoryViewModel> GetAll();
-        CategoryViewModel GetById(Guid id);
+        CategoryViewModel GetById(int id);
         void Update(CategoryViewModel categoryViewModel);
-        void Remove(Guid id);
-        IList<CategoryHistoryData> GetAllHistory(Guid id);
+        void Remove(int id);
+        IList<CategoryHistoryData> GetAllHistory(int id);
     }
 }

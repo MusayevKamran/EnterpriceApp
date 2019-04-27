@@ -7,11 +7,11 @@ namespace App.Domain.Events.Shop.Image
 {
     public class ImageRemoveEvent : Event
     {
-        public ImageRemoveEvent(Guid imageId)
+        public ImageRemoveEvent(int imageId)
         {
             ImageId = imageId;
             AggregateId = imageId;
         }
-        public Guid ImageId { get; set; }
+        public int ImageId { get; set; }
     }
 }

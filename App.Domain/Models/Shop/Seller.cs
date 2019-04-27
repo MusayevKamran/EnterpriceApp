@@ -5,7 +5,7 @@ using System.Text;
 
 namespace App.Domain.Models.Shop
 {
-    public class Seller : Entity
+    public class Seller : Entity<int>
     {
         public Seller(Guid sellerId, string name, string email, string phoneNumber)
         {

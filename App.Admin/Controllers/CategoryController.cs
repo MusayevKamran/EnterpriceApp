@@ -29,8 +29,8 @@ namespace App.Admin.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        [Route("Category-management/Category-details/{id:guid}")]
-        public IActionResult Details(Guid? id)
+        [Route("Category-management/Category-details/{id:int}")]
+        public IActionResult Details(int? id)
         {
             if (id == null)
             {
@@ -62,7 +62,7 @@ namespace App.Admin.Controllers
         public IActionResult Create(CategoryViewModel categoryViewModel)
         {
             if (!ModelState.IsValid) return View(categoryViewModel);
-            categoryViewModel.CategoryId = Guid.NewGuid();
+            //categoryViewModel.CategoryId = Guid.NewGuid();
 
             _categoryAppService.Create(categoryViewModel);
 
@@ -74,8 +74,8 @@ namespace App.Admin.Controllers
 
         [HttpGet]
         [Authorize(Policy = "CanWriteCategoryData")]
-        [Route("Category-management/edit-Category/{id:guid}")]
-        public IActionResult Edit(Guid? id)
+        [Route("Category-management/edit-Category/{id:int}")]
+        public IActionResult Edit(int? id)
         {
             if (id == null)
             {
@@ -94,7 +94,7 @@ namespace App.Admin.Controllers
 
         [HttpPost]
         [Authorize(Policy = "CanWriteCategoryData")]
-        [Route("Category-management/edit-Category/{id:guid}")]
+        [Route("Category-management/edit-Category/{id:int}")]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(CategoryViewModel categoryViewModel)
         {
@@ -110,8 +110,8 @@ namespace App.Admin.Controllers
 
         [HttpGet]
         [Authorize(Policy = "CanRemoveCategoryData")]
-        [Route("Category-management/remove-Category/{id:guid}")]
-        public IActionResult Delete(Guid? id)
+        [Route("Category-management/remove-Category/{id:int}")]
+        public IActionResult Delete(int? id)
         {
             if (id == null)
             {
@@ -130,9 +130,9 @@ namespace App.Admin.Controllers
 
         [HttpPost, ActionName("Delete")]
         [Authorize(Policy = "CanRemoveCategoryData")]
-        [Route("Category-management/remove-Category/{id:guid}")]
+        [Route("Category-management/remove-Category/{id:int}")]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(Guid id)
+        public IActionResult DeleteConfirmed(int id)
         {
             _categoryAppService.Remove(id);
 
@@ -144,10 +144,10 @@ namespace App.Admin.Controllers
 
         //[AllowAnonymous]
         //[Route("Category-management/Category-history/{id:guid}")]
-        //public JsonResult History(Guid id)
+        //public JsonResult History(int id)
         //{
-        //    var CategoryHistoryData = _CategoryAppService.GetAllHistory(id);
-        //    return Json(CategoryHistoryData);
+        //    var categoryHistoryData = _categoryAppService.GetAllHistory(id);
+        //    return Json(categoryHistoryData);
         //}
     }
 }

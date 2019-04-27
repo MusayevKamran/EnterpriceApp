@@ -7,7 +7,7 @@ using AppDbContext = App.Infrastructure.Data.Context.AppDbContext;
 
 namespace App.Infrastructure.Data.Repository
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
+    public class Repository<TEntity, TId> : IRepository<TEntity, TId> where TEntity : class
     {
         protected readonly AppDbContext Db;
         protected readonly DbSet<TEntity> DbSet;
@@ -27,12 +27,12 @@ namespace App.Infrastructure.Data.Repository
             return DbSet;
         }
 
-        public virtual TEntity GetById(Guid id)
+        public virtual TEntity GetById(TId id)
         {
             return DbSet.Find(id);
         }
 
-        public virtual void Remove(Guid id)
+        public virtual void Remove(TId id)
         {
             DbSet.Remove(DbSet.Find(id));
         }

@@ -5,13 +5,13 @@ using System.Text;
 
 namespace App.Domain.Interfaces
 {
-    public interface IRepository<TEntity> : IDisposable
+    public interface IRepository<TEntity, TId> : IDisposable
     {
         void Add(TEntity obj);
-        TEntity GetById(Guid id);
+        TEntity GetById(TId id);
         IQueryable<TEntity> GetAll();
         void Update(TEntity obj);
-        void Remove(Guid id);
+        void Remove(TId id);
         int SaveChanges();
     }
 }

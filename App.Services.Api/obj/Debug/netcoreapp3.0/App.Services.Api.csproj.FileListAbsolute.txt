@@ -580,6 +580,7 @@ D:\NET.WEB\EnterpriceApp\App.Services.Api\bin\Debug\netcoreapp3.0\refs\WindowsBa
 D:\NET.WEB\EnterpriceApp\App.Services.Api\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\NET.WEB\EnterpriceApp\App.Services.Api\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\NET.WEB\EnterpriceApp\App.Services.Api\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
+D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.Api.csprojAssemblyReference.cache
 D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.Api.csproj.CoreCompileInputs.cache
 D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.Api.RazorAssemblyInfo.cache
 D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.Api.RazorAssemblyInfo.cs
@@ -589,4 +590,3 @@ D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.A
 D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.Api.csproj.CopyComplete
 D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.Api.dll
 D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.Api.pdb
-D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.Api.csprojAssemblyReference.cache

@@ -7,7 +7,7 @@ namespace App.Domain.Commands.Shop.Category
 {
     public class RemoveCategoryCommand : CategoryCommand
     {
-        public RemoveCategoryCommand(Guid categoryId)
+        public RemoveCategoryCommand(int categoryId)
         {
             CategoryId = categoryId;
             AggregateId = categoryId;

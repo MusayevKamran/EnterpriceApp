@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace App.Domain.Models.Shop
 {
-    public class Product : Entity
+    public class Product : Entity<int>
     {
         public Product(Guid productId, string productName)
         {

@@ -9,7 +9,7 @@ namespace App.Domain.Events.Shop.Category
     public class CategoryCreatedEvent : Event
     {
         public CategoryCreatedEvent(int categoryId, string categoryName)
-        {
+        {   
             CategoryId = categoryId;
             CategoryName = categoryName;
         }

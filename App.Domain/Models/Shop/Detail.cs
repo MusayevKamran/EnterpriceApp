@@ -5,7 +5,7 @@ using System.Text;
 
 namespace App.Domain.Models.Shop
 {
-    public class Detail : Entity
+    public class Detail : Entity<int>
     {
         public Detail(Guid detailId, string detailName, string detailFeature)
         {

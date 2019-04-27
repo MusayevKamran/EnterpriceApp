@@ -7,7 +7,7 @@ namespace App.Domain.Commands.Shop.Category
 {
     public class CreateNewCategoryCommand : CategoryCommand
     {
-        public CreateNewCategoryCommand(Guid categoryId, string categoryName)
+        public CreateNewCategoryCommand(int categoryId, string categoryName)
         {
             CategoryId = categoryId;
             CategoryName = categoryName;

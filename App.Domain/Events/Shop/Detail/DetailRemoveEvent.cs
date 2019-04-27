@@ -7,11 +7,11 @@ namespace App.Domain.Events.Shop.Detail
 {
     public class DetailRemoveEvent : Event
     {
-        public DetailRemoveEvent(Guid detailId)
+        public DetailRemoveEvent(int detailId)
         {
             DetailId = detailId;
             AggregateId = detailId;
         }
-        public Guid DetailId { get; set; }
+        public int DetailId { get; set; }
     }
 }

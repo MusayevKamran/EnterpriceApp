@@ -5,7 +5,7 @@ using System.Text;
 
 namespace App.Domain.Models.Shop
 {
-    public class Image : Entity
+    public class Image : Entity<int>
     {
         public Image(Guid imageId, string imageLink, string profileImage)
         {

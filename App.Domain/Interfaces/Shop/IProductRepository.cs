@@ -5,7 +5,7 @@ using System.Text;
 
 namespace App.Domain.Interfaces.Shop
 {
-    public interface IProductRepository : IRepository<Product>
+    public interface IProductRepository : IRepository<Product, int>
     {
     }
 }

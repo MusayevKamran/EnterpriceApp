@@ -3,7 +3,7 @@
 
 namespace App.Domain.Interfaces.Shop
 {
-    public interface ICategoryRepository : IRepository<Category>
+    public interface ICategoryRepository : IRepository<Category, int>
     {
     }
 }

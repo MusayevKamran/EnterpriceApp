@@ -7,7 +7,7 @@ namespace App.Domain.Commands.Shop.Category
 {
     public class UpdateCategoryCommand : CategoryCommand
     {
-        public UpdateCategoryCommand(Guid categoryId, string categoryName)
+        public UpdateCategoryCommand(int categoryId, string categoryName)
         {
             CategoryId = categoryId;
             CategoryName = categoryName;

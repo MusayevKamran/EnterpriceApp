@@ -40,12 +40,12 @@ namespace App.Application.Services.Shop
             return _categoryRepository.GetAll().ProjectTo<CategoryViewModel>(_mapper.ConfigurationProvider);
         }
 
-        public IList<CategoryHistoryData> GetAllHistory(Guid id)
+        public IList<CategoryHistoryData> GetAllHistory(int id)
         {
             return CategoryHistory.ToJavaScriptCategoryHistory(_eventStoreRepository.All(id));
         }
 
-        public CategoryViewModel GetById(Guid id)
+        public CategoryViewModel GetById(int id)
         {
             return _mapper.Map<CategoryViewModel>(_categoryRepository.GetById(id));
         }
@@ -56,7 +56,7 @@ namespace App.Application.Services.Shop
             Bus.SendCommand(createCommand);
         }
 
-        public void Remove(Guid id)
+        public void Remove(int id)
         {
             var removeCommand = new RemoveCategoryCommand(id);
             Bus.SendCommand(removeCommand);

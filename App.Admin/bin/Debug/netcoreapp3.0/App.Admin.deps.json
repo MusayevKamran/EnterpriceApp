@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v3.0",
-    "signature": "4820f97196bd0d29dc8e3d93fd27f05954ef1542"
+    "signature": "ea944490c937255d3790e16a2dc5c2b880aa7e6c"
   },
   "compilationOptions": {
     "defines": [
@@ -352,14 +352,14 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
-      "FluentValidation/8.2.2": {
+      "FluentValidation/8.3.0": {
         "dependencies": {
           "System.ComponentModel.Annotations": "4.6.0-preview3.19128.7"
         },
         "runtime": {
           "lib/netstandard2.0/FluentValidation.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.2.2.0"
+            "fileVersion": "8.3.0.0"
           }
         },
         "compile": {
@@ -1438,7 +1438,7 @@
         "dependencies": {
           "App.Domain.Core": "1.0.0",
           "App.Infrastructure.CrossCutting.Bus": "1.0.0",
-          "FluentValidation": "8.2.2",
+          "FluentValidation": "8.3.0",
           "Microsoft.NETCore.Platforms": "3.0.0-preview.19073.11",
           "System.ComponentModel": "4.3.0",
           "System.ComponentModel.Annotations": "4.6.0-preview3.19128.7",
@@ -1453,7 +1453,7 @@
       },
       "App.Domain.Core/1.0.0": {
         "dependencies": {
-          "FluentValidation": "8.2.2",
+          "FluentValidation": "8.3.0",
           "MediatR": "6.0.0",
           "Microsoft.NETCore.Platforms": "3.0.0-preview.19073.11",
           "System.ComponentModel": "4.3.0"
@@ -3259,12 +3259,12 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/6.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512"
     },
-    "FluentValidation/8.2.2": {
+    "FluentValidation/8.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vecU0PUi85MZ/g6p3L6jxym23pdRUgsZ3wTWCLAaqrD5ig9Jf4MQA+CE2yI5d4TGO0z3bvAozqkJr+L1I6OnJg==",
-      "path": "fluentvalidation/8.2.2",
-      "hashPath": "fluentvalidation.8.2.2.nupkg.sha512"
+      "sha512": "sha512-tQULydqVfFi68qjEw4Y+P3wM1Xp7kppLpUqPVKI6u8NDwlPVTm6V96qnLWCTO4khn7WtQ1p3ysnrNTl98fdJpA==",
+      "path": "fluentvalidation/8.3.0",
+      "hashPath": "fluentvalidation.8.3.0.nupkg.sha512"
     },
     "MediatR/6.0.0": {
       "type": "package",

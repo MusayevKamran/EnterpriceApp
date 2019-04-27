@@ -3,7 +3,7 @@
 
 namespace App.Domain.Interfaces.Shop
 {
-    public interface IDetailRepository : IRepository<Detail>
+    public interface IDetailRepository : IRepository<Detail, int>
     {
     }
 }

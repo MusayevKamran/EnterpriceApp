@@ -21,37 +21,31 @@ namespace App.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("App.Domain.Models.Shop.Category", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("CategoryId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnName("Id")
+                        .HasColumnName("CategoryId")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<Guid>("CategoryId")
-                        .HasColumnName("CategoryId");
 
                     b.Property<string>("CategoryName")
                         .IsRequired()
                         .HasColumnType("varchar(100)")
                         .HasMaxLength(100);
 
-                    b.HasKey("Id");
+                    b.HasKey("CategoryId");
 
                     b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("App.Domain.Models.Shop.Comment", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<Guid>("CommentId")
+                        .ValueGeneratedOnAdd();
 
                     b.Property<string>("CommentContent");
 
-                    b.Property<Guid>("CommentId");
+                    b.Property<Guid?>("ProductId");
 
-                    b.Property<int?>("ProductId");
-
-                    b.HasKey("Id");
+                    b.HasKey("CommentId");
 
                     b.HasIndex("ProductId");
 
@@ -60,19 +54,16 @@ namespace App.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("App.Domain.Models.Shop.Detail", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<Guid>("DetailId")
+                        .ValueGeneratedOnAdd();
 
                     b.Property<int?>("CategoryId");
 
                     b.Property<string>("DetailFeature");
 
-                    b.Property<Guid>("DetailId");
-
                     b.Property<string>("DetailName");
 
-                    b.HasKey("Id");
+                    b.HasKey("DetailId");
 
                     b.HasIndex("CategoryId");
 
@@ -81,19 +72,16 @@ namespace App.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("App.Domain.Models.Shop.Image", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<Guid>("ImageId");
+                    b.Property<Guid>("ImageId")
+                        .ValueGeneratedOnAdd();
 
                     b.Property<string>("ImageLink");
 
-                    b.Property<int?>("ProductId");
+                    b.Property<Guid?>("ProductId");
 
                     b.Property<string>("ProfileImage");
 
-                    b.HasKey("Id");
+                    b.HasKey("ImageId");
 
                     b.HasIndex("ProductId");
 
@@ -102,21 +90,18 @@ namespace App.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("App.Domain.Models.Shop.Product", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<Guid>("ProductId")
+                        .ValueGeneratedOnAdd();
 
                     b.Property<int?>("CategoryId");
 
-                    b.Property<int?>("DetailId");
-
-                    b.Property<Guid>("ProductId");
+                    b.Property<Guid?>("DetailId");
 
                     b.Property<string>("ProductName");
 
-                    b.Property<int?>("SellerId");
+                    b.Property<Guid?>("SellerId");
 
-                    b.HasKey("Id");
+                    b.HasKey("ProductId");
 
                     b.HasIndex("CategoryId");
 
@@ -129,9 +114,8 @@ namespace App.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("App.Domain.Models.Shop.Seller", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<Guid>("SellerId")
+                        .ValueGeneratedOnAdd();
 
                     b.Property<string>("Email");
 
@@ -139,9 +123,7 @@ namespace App.Infrastructure.Data.Migrations
 
                     b.Property<string>("PhoneNumber");
 
-                    b.Property<Guid>("SellerId");
-
-                    b.HasKey("Id");
+                    b.HasKey("SellerId");
 
                     b.ToTable("Sellers");
                 });

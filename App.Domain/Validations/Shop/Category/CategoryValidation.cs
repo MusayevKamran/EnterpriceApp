@@ -14,8 +14,8 @@ namespace App.Domain.Validations.Shop.Category
         }
         protected void ValidateId()
         {
-            RuleFor(c => c.CategoryId)
-                .NotEqual(Guid.Empty);
+            //RuleFor(c => c.CategoryId)
+            //    .NotEqual(Guid.Empty);
         }
     }
 }
