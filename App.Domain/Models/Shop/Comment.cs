@@ -7,14 +7,16 @@ namespace App.Domain.Models.Shop
 {
     public class Comment : Entity<int>
     {
-        public Comment(Guid commentId, string commentContent)
+        public Comment() { }
+        public Comment(int commentId, string commentContent,Product product)
         {
             CommentId = commentId;
             CommentContent = commentContent;
+            Product = product;
         }
-        public Guid CommentId { get; set; }
-        public string CommentContent { get; set; }
-        public Product Product { get; set; }
+        public int CommentId { get; private set; }
+        public virtual string CommentContent { get; private set; }
+        public virtual Product Product { get; private set; }
         //public User User { get; set; }
     }
 }

@@ -7,13 +7,14 @@ namespace App.Domain.Events.Shop.Detail
 {
     public class DetailCreateEvent : Event
     {
-        public DetailCreateEvent(Guid detailId, string detailName, string detailFeature)
+        public DetailCreateEvent(int detailId, string detailName, string detailFeature)
         {
             DetailId = detailId;
             DetailName = detailName;
             DetailFeature = detailFeature;
+            AggregateId = detailId;
         }
-        public Guid DetailId { get; set; }
+        public int DetailId { get; set; }
         public string DetailName { get; set; }
         public string DetailFeature { get; set; }
 

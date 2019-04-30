@@ -327,7 +327,7 @@ namespace App.Admin.Controllers
                     result = await _userManager.AddLoginAsync(user, info);
                     if (result.Succeeded)
                     {
-                        // User claim for write students data
+                        // User claim for write seller data
                         await _userManager.AddClaimAsync(user, new Claim("Seller", "Write"));
 
                         await _signInManager.SignInAsync(user, isPersistent: false);

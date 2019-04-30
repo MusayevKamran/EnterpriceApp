@@ -5,9 +5,9 @@ using System.Text;
 
 namespace App.Domain.Events.Shop.Product
 {
-    public class ProductRemoveEvent : Event
+    public class ProductRemovedEvent : Event
     {
-        public ProductRemoveEvent(int productId)
+        public ProductRemovedEvent(int productId)
         {
             ProductId = productId;
             AggregateId = productId;

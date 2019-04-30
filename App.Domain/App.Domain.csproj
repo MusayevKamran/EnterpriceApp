@@ -36,12 +36,10 @@
     <Folder Include="Commands\Shop\Detail\" />
     <Folder Include="Commands\Shop\Image\" />
     <Folder Include="Commands\Shop\Seller\" />
-    <Folder Include="Commands\Shop\Product\" />
     <Folder Include="Validations\Shop\Comment\" />
     <Folder Include="Validations\Shop\Detail\" />
     <Folder Include="Validations\Shop\Image\" />
     <Folder Include="Validations\Shop\Seller\" />
-    <Folder Include="Validations\Shop\Product\" />
   </ItemGroup>
 
 </Project>

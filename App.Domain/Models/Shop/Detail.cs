@@ -7,15 +7,17 @@ namespace App.Domain.Models.Shop
 {
     public class Detail : Entity<int>
     {
-        public Detail(Guid detailId, string detailName, string detailFeature)
+        public Detail() { }
+        public Detail(int detailId, string detailName, string detailFeature, Category category)
         {
             DetailId = detailId;
             DetailName = detailName;
             DetailFeature = detailFeature;
+            Category = category;
         }
-        public Guid DetailId { get; set; }
-        public string DetailName { get; set; }
-        public string DetailFeature { get; set; }
-        public Category Category { get; set; }
+        public int DetailId { get; private set; }
+        public virtual string DetailName { get; private set; }
+        public virtual string DetailFeature { get; private set; }
+        public virtual Category Category { get; private set; }
     }
 }

@@ -7,13 +7,14 @@ namespace App.Domain.Events.Shop.Image
 {
     public class ImageCreateEvent : Event
     {
-        public ImageCreateEvent(Guid imageId, string imageLink, string profileImage)
+        public ImageCreateEvent(int imageId, string imageLink, string profileImage)
         {
             ImageId = imageId;
             ImageLink = imageLink;
             ProfileImage = profileImage;
+            AggregateId = imageId;
         }
-        public Guid ImageId { get; set; }
+        public int ImageId { get; set; }
         public string ImageLink { get; set; }
         public string ProfileImage { get; set; }
     }

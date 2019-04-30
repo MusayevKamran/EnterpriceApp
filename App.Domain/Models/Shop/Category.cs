@@ -7,14 +7,15 @@ namespace App.Domain.Models.Shop
 {
     public class Category : Entity<int>
     {
+        public Category() { }
         public Category(int categoryId, string categoryName)
         {
             CategoryId = categoryId;
             CategoryName = categoryName;
-            Product = new HashSet<Product>();
+            Products = new HashSet<Product>();
         }
-        public int CategoryId { get; set; }
-        public string CategoryName { get; set; }
-        public ICollection<Product> Product { get; set; }
+        public int CategoryId { get; private set; }
+        public virtual string CategoryName { get; private set; }
+        public virtual ICollection<Product> Products { get; set; }
     }
 }

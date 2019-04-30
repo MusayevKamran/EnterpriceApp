@@ -11,7 +11,6 @@ namespace App.Domain.Commands.Shop.Category
         {
             CategoryId = categoryId;
             CategoryName = categoryName;
-            AggregateId = categoryId;
         }
         public override bool IsValid()
         {

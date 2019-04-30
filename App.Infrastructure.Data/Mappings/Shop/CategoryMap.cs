@@ -17,14 +17,12 @@ namespace App.Infrastructure.Data.Mappings.Shop
                 .HasColumnName("CategoryId")
                 .ValueGeneratedOnAdd();
 
-
-
-
             builder.Property(c => c.CategoryName)
                 .HasColumnType("varchar(100)")
                 .HasMaxLength(100)
                 .IsRequired();
 
+            builder.HasMany(p => p.Products);
         }
     }
 }

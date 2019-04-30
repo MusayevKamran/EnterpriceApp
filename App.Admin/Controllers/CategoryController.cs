@@ -21,7 +21,6 @@ namespace App.Admin.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        [Route("Category-management/list-all")]
         public IActionResult Index()
         {
             return View(_categoryAppService.GetAll());
@@ -29,7 +28,6 @@ namespace App.Admin.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        [Route("Category-management/Category-details/{id:int}")]
         public IActionResult Details(int? id)
         {
             if (id == null)
@@ -49,7 +47,6 @@ namespace App.Admin.Controllers
 
         [HttpGet]
         [Authorize(Policy = "CanWriteCategoryData")]
-        [Route("Category-management/register-new")]
         public IActionResult Create()
         {
             return View();
@@ -57,7 +54,6 @@ namespace App.Admin.Controllers
 
         [HttpPost]
         [Authorize(Policy = "CanWriteCategoryData")]
-        [Route("Category-management/register-new")]
         [ValidateAntiForgeryToken]
         public IActionResult Create(CategoryViewModel categoryViewModel)
         {
@@ -74,7 +70,6 @@ namespace App.Admin.Controllers
 
         [HttpGet]
         [Authorize(Policy = "CanWriteCategoryData")]
-        [Route("Category-management/edit-Category/{id:int}")]
         public IActionResult Edit(int? id)
         {
             if (id == null)
@@ -94,7 +89,6 @@ namespace App.Admin.Controllers
 
         [HttpPost]
         [Authorize(Policy = "CanWriteCategoryData")]
-        [Route("Category-management/edit-Category/{id:int}")]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(CategoryViewModel categoryViewModel)
         {
@@ -109,8 +103,7 @@ namespace App.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Policy = "CanRemoveCategoryData")]
-        [Route("Category-management/remove-Category/{id:int}")]
+        //[Authorize(Policy = "CanRemoveCategoryData")]
         public IActionResult Delete(int? id)
         {
             if (id == null)
@@ -118,19 +111,18 @@ namespace App.Admin.Controllers
                 return NotFound();
             }
 
-            var CategoryViewModel = _categoryAppService.GetById(id.Value);
+            var categoryViewModel = _categoryAppService.GetById(id.Value);
 
-            if (CategoryViewModel == null)
+            if (categoryViewModel == null)
             {
                 return NotFound();
             }
 
-            return View(CategoryViewModel);
+            return View(categoryViewModel);
         }
 
         [HttpPost, ActionName("Delete")]
-        [Authorize(Policy = "CanRemoveCategoryData")]
-        [Route("Category-management/remove-Category/{id:int}")]
+        //[Authorize(Policy = "CanRemoveCategoryData")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {

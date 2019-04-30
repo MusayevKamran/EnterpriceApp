@@ -7,13 +7,14 @@ namespace App.Domain.Events.Shop.Comment
 {
     public class CommentCreateEvent : Event
     {
-        public CommentCreateEvent(Guid commentId, string commentContent, Models.Shop.Product product)
+        public CommentCreateEvent(int commentId, string commentContent, Models.Shop.Product product)
         {
             CommentId = commentId;
             CommentContent = commentContent;
             Product = product;
+            AggregateId = commentId;
         }
-        public Guid CommentId { get; set; }
+        public int CommentId { get; set; }
         public string CommentContent { get; set; }
         public Models.Shop.Product Product { get; set; }
     }

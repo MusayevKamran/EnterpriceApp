@@ -22,6 +22,11 @@ namespace App.Infrastructure.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new CategoryMap());
+            modelBuilder.ApplyConfiguration(new CommentMap());
+            modelBuilder.ApplyConfiguration(new DetailMap());
+            modelBuilder.ApplyConfiguration(new ImageMap());
+            modelBuilder.ApplyConfiguration(new ProductMap());
+            modelBuilder.ApplyConfiguration(new SellerMap());
 
             base.OnModelCreating(modelBuilder);
         }

@@ -7,14 +7,17 @@ namespace App.Domain.Models.Shop
 {
     public class Image : Entity<int>
     {
-        public Image(Guid imageId, string imageLink, string profileImage)
+        public Image() { }
+        public Image(int imageId, string imageLink, string profileImage, Product product)
         {
             ImageId = imageId;
             ImageLink = imageLink;
             ProfileImage = profileImage;
+            Product = product;
         }
-        public Guid ImageId { get; set; }
-        public string ImageLink { get; set; }
-        public string ProfileImage { get; set; }
+        public int ImageId { get; private set; }
+        public virtual string ImageLink { get; private set; }
+        public virtual string ProfileImage { get; private set; }
+        public virtual Product Product { get; private set; }
     }
 }
