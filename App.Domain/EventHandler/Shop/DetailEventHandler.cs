@@ -7,21 +7,21 @@ using System.Threading.Tasks;
 namespace App.Domain.EventHandler.Shop
 {
     public class DetailEventHandler :
-        INotificationHandler<DetailCreateEvent>,
-        INotificationHandler<DetailRemoveEvent>,
-        INotificationHandler<DetailUpdateEvent>
+        INotificationHandler<DetailCreatedEvent>,
+        INotificationHandler<DetailRemovedEvent>,
+        INotificationHandler<DetailUpdatedEvent>
     {
-        public Task Handle(DetailCreateEvent notification, CancellationToken cancellationToken)
+        public Task Handle(DetailCreatedEvent notification, CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
         }
 
-        public Task Handle(DetailRemoveEvent notification, CancellationToken cancellationToken)
+        public Task Handle(DetailRemovedEvent notification, CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
         }
 
-        public Task Handle(DetailUpdateEvent notification, CancellationToken cancellationToken)
+        public Task Handle(DetailUpdatedEvent notification, CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
         }

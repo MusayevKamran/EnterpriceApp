@@ -1,4 +1,5 @@
-﻿using App.Domain.Core.Events;
+﻿using App.Application.ViewModels.Shop;
+using App.Domain.Core.Events;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;

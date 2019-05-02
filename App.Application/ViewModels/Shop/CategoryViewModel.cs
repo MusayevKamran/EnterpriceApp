@@ -1,9 +1,8 @@
-﻿using App.Domain.Models.Shop;
-using System;
+﻿
+using App.Domain.Models.Shop;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace App.Application.ViewModels.Shop
 {
@@ -16,6 +15,5 @@ namespace App.Application.ViewModels.Shop
         [MaxLength(30)]
         [DisplayName("CategoryName")]
         public string CategoryName { get; set; }
-
     }
 }

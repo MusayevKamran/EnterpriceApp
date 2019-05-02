@@ -3,7 +3,7 @@ using System;
 
 namespace App.Domain.Interfaces.Shop
 {
-    public interface ISellerRepository : IRepository<Seller, Guid>
+    public interface ISellerRepository : IRepository<Seller, int>
     {
     }
 }

@@ -16,8 +16,4 @@
     <ProjectReference Include="..\App.Infrastructure.Data\App.Infrastructure.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="EventSourcedNormalizers\Shop\Product\" />
-  </ItemGroup>
-
 </Project>

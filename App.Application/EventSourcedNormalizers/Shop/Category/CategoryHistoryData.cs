@@ -1,4 +1,5 @@
-﻿using App.Domain.Models.Shop;
+﻿using App.Application.ViewModels.Shop;
+using App.Domain.Models.Shop;
 using System;
 using System.Collections.Generic;
 using System.Text;

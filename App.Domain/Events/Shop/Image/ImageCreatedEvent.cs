@@ -5,18 +5,19 @@ using System.Text;
 
 namespace App.Domain.Events.Shop.Image
 {
-    public class ImageCreateEvent : Event
+    public class ImageCreatedEvent : Event
     {
-        public ImageCreateEvent(int imageId, string imageLink, string profileImage)
+        public ImageCreatedEvent(int imageId, string imageLink, bool profileImage, Models.Shop.Product product)
         {
             ImageId = imageId;
             ImageLink = imageLink;
             ProfileImage = profileImage;
-            AggregateId = imageId;
+            Product = product;
         }
         public int ImageId { get; set; }
         public string ImageLink { get; set; }
-        public string ProfileImage { get; set; }
+        public bool ProfileImage { get; set; }
+        public Models.Shop.Product Product { get; set; }
     }
 }
 

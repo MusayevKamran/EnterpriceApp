@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 namespace App.Domain.EventHandler.Shop
 {
     public class ImageEventHandler :
-        INotificationHandler<ImageCreateEvent>,
-        INotificationHandler<ImageRemoveEvent>,
-        INotificationHandler<ImageUpdateEvent>
+        INotificationHandler<ImageCreatedEvent>,
+        INotificationHandler<ImageRemovedEvent>,
+        INotificationHandler<ImageUpdatedEvent>
     {
-        public Task Handle(ImageCreateEvent notification, CancellationToken cancellationToken)
+        public Task Handle(ImageCreatedEvent notification, CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
         }
 
-        public Task Handle(ImageRemoveEvent notification, CancellationToken cancellationToken)
+        public Task Handle(ImageRemovedEvent notification, CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
         }
 
-        public Task Handle(ImageUpdateEvent notification, CancellationToken cancellationToken)
+        public Task Handle(ImageUpdatedEvent notification, CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
         }

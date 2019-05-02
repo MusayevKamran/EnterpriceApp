@@ -5,9 +5,9 @@ using System.Text;
 
 namespace App.Domain.Events.Shop.Image
 {
-    public class ImageRemoveEvent : Event
+    public class ImageRemovedEvent : Event
     {
-        public ImageRemoveEvent(int imageId)
+        public ImageRemovedEvent(int imageId)
         {
             ImageId = imageId;
             AggregateId = imageId;

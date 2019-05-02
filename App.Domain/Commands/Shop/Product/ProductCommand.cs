@@ -9,10 +9,10 @@ namespace App.Domain.Commands.Shop.Product
     public abstract class ProductCommand : Command
     {
         public int ProductId { get; set; }
-        public virtual string ProductName { get; set; }
-        public virtual Models.Shop.Category Category { get; set; }
-        public virtual Detail Detail { get; set; }     
-        public virtual Seller Seller { get; set; }
-        public virtual ICollection<Image> Images { get; set; }
+        public string ProductName { get; set; }
+        public Models.Shop.Category Category { get; set; }
+        public Models.Shop.Detail Detail { get; set; }
+        public Models.Shop.Seller Seller { get; set; }
+        public ICollection<Models.Shop.Image> Images { get; set; }
     }
 }

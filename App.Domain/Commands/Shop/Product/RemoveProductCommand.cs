@@ -13,7 +13,7 @@ namespace App.Domain.Commands.Shop.Product
         }
         public override bool IsValid()
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace App.Domain.Events.Shop.Seller
 {
-    public class SellerRemoveEvent : Event
+    public class SellerRemovedEvent : Event
     {
-        public SellerRemoveEvent(int sellerId)
+        public SellerRemovedEvent(int sellerId)
         {
             SellerId = sellerId;
             AggregateId = sellerId;

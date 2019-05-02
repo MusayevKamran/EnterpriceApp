@@ -7,7 +7,7 @@ namespace App.Domain.Commands.Shop.Product
 {
     public class CreateNewProductCommand : ProductCommand
     {
-        public CreateNewProductCommand(int productId, string productName, Models.Shop.Category category, Detail detail, Seller seller, ICollection<Image> images)
+        public CreateNewProductCommand(int productId, string productName, Models.Shop.Category category, Models.Shop.Detail detail, Models.Shop.Seller seller, ICollection<Models.Shop.Image> images)
         {
             ProductId = productId;
             ProductName = productName;
@@ -19,7 +19,7 @@ namespace App.Domain.Commands.Shop.Product
 
         public override bool IsValid()
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }

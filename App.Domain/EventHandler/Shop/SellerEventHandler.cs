@@ -9,21 +9,21 @@ using System.Threading.Tasks;
 namespace App.Domain.EventHandler.Shop
 {
     public class SellerEventHandler :
-        INotificationHandler<SellerCreateEvent>,
-        INotificationHandler<SellerRemoveEvent>,
-        INotificationHandler<SellerUpdateEvent>
+        INotificationHandler<SellerCreatedEvent>,
+        INotificationHandler<SellerRemovedEvent>,
+        INotificationHandler<SellerUpdatedEvent>
     {
-        public Task Handle(SellerCreateEvent notification, CancellationToken cancellationToken)
+        public Task Handle(SellerCreatedEvent notification, CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
         }
 
-        public Task Handle(SellerRemoveEvent notification, CancellationToken cancellationToken)
+        public Task Handle(SellerRemovedEvent notification, CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
         }
 
-        public Task Handle(SellerUpdateEvent notification, CancellationToken cancellationToken)
+        public Task Handle(SellerUpdatedEvent notification, CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
         }

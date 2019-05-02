@@ -1,13 +1,10 @@
 ﻿using App.Domain.Core.Events;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace App.Domain.Events.Shop.Detail
 {
-    public class DetailRemoveEvent : Event
+    public class DetailRemovedEvent : Event
     {
-        public DetailRemoveEvent(int detailId)
+        public DetailRemovedEvent(int detailId)
         {
             DetailId = detailId;
             AggregateId = detailId;

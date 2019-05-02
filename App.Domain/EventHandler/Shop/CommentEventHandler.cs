@@ -9,21 +9,21 @@ using System.Threading.Tasks;
 namespace App.Domain.EventHandler.Shop
 {
     public class CommentEventHandler :
-        INotificationHandler<CommentCreateEvent>,
-        INotificationHandler<CommentRemoveEvent>,
-        INotificationHandler<CommentUpdateEvent>
+        INotificationHandler<CommentCreatedEvent>,
+        INotificationHandler<CommentRemovedEvent>,
+        INotificationHandler<CommentUpdatedEvent>
     {
-        public Task Handle(CommentCreateEvent notification, CancellationToken cancellationToken)
+        public Task Handle(CommentCreatedEvent notification, CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
         }
 
-        public Task Handle(CommentRemoveEvent notification, CancellationToken cancellationToken)
+        public Task Handle(CommentRemovedEvent notification, CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
         }
 
-        public Task Handle(CommentUpdateEvent notification, CancellationToken cancellationToken)
+        public Task Handle(CommentUpdatedEvent notification, CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
         }

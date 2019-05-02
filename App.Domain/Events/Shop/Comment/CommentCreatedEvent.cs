@@ -5,17 +5,18 @@ using System;
 
 namespace App.Domain.Events.Shop.Comment
 {
-    public class CommentCreateEvent : Event
+    public class CommentCreatedEvent : Event
     {
-        public CommentCreateEvent(int commentId, string commentContent, Models.Shop.Product product)
+        public CommentCreatedEvent(int commentId, string commentContent, Models.Shop.Product product, int userId)
         {
             CommentId = commentId;
             CommentContent = commentContent;
             Product = product;
-            AggregateId = commentId;
+            UserID = userId;
         }
         public int CommentId { get; set; }
         public string CommentContent { get; set; }
         public Models.Shop.Product Product { get; set; }
+        public int UserID { get; set; }
     }
 }

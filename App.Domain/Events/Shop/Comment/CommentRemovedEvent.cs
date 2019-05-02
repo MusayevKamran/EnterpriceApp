@@ -5,9 +5,9 @@ using System.Text;
 
 namespace App.Domain.Events.Shop.Comment
 {
-    public class CommentRemoveEvent : Event
+    public class CommentRemovedEvent : Event
     {
-        public CommentRemoveEvent(int commentId)
+        public CommentRemovedEvent(int commentId)
         {
             CommentId = commentId;
             AggregateId = commentId;

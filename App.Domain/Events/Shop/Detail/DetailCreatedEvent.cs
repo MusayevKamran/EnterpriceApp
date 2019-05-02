@@ -5,18 +5,19 @@ using System.Text;
 
 namespace App.Domain.Events.Shop.Detail
 {
-    public class DetailCreateEvent : Event
+    public class DetailCreatedEvent : Event
     {
-        public DetailCreateEvent(int detailId, string detailName, string detailFeature)
+        public DetailCreatedEvent(int detailId, string detailName, string detailFeature, Models.Shop.Category category)
         {
             DetailId = detailId;
             DetailName = detailName;
             DetailFeature = detailFeature;
-            AggregateId = detailId;
+            Category = category;
         }
         public int DetailId { get; set; }
         public string DetailName { get; set; }
         public string DetailFeature { get; set; }
+        public Models.Shop.Category Category { get; private set; }
 
     }
 }

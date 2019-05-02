@@ -8,7 +8,7 @@ namespace App.Domain.Models.Shop
     public class Image : Entity<int>
     {
         public Image() { }
-        public Image(int imageId, string imageLink, string profileImage, Product product)
+        public Image(int imageId, string imageLink, bool profileImage, Product product)
         {
             ImageId = imageId;
             ImageLink = imageLink;
@@ -17,7 +17,7 @@ namespace App.Domain.Models.Shop
         }
         public int ImageId { get; private set; }
         public virtual string ImageLink { get; private set; }
-        public virtual string ProfileImage { get; private set; }
+        public virtual bool ProfileImage { get; private set; }
         public virtual Product Product { get; private set; }
     }
 }

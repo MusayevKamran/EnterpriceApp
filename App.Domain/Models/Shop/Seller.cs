@@ -8,7 +8,7 @@ namespace App.Domain.Models.Shop
     public class Seller : Entity<int>
     {
         public Seller() { }
-        public Seller(Guid sellerId, string name, string email, string phoneNumber)
+        public Seller(int sellerId, string name, string email, string phoneNumber)
         {
             SellerId = sellerId;
             Name = name;
@@ -16,7 +16,7 @@ namespace App.Domain.Models.Shop
             PhoneNumber = phoneNumber;
             Products = new HashSet<Product>();
         }
-        public Guid SellerId { get; set; }
+        public int SellerId { get; set; }
         public virtual string Name { get; private set; }
         public virtual string Email { get; private set; }
         public virtual string PhoneNumber { get; private set; }

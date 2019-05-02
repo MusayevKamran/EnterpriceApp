@@ -12,6 +12,7 @@ namespace App.Infrastructure.Data.Mappings.Shop
         public void Configure(EntityTypeBuilder<Product> builder)
         {
             builder.HasKey(p => p.ProductId);
+
             builder.HasOne(d => d.Detail);
             builder.HasOne(c => c.Category);
             builder.HasOne(s => s.Seller);
