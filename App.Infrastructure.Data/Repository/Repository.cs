@@ -3,16 +3,16 @@ using App.Infrastructure.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
-using AppDbContext = App.Infrastructure.Data.Context.AppDbContext;
+using ShopDbContext = App.Infrastructure.Data.Context.ShopDbContext;
 
 namespace App.Infrastructure.Data.Repository
 {
     public class Repository<TEntity, TId> : IRepository<TEntity, TId> where TEntity : class
     {
-        protected readonly AppDbContext Db;
+        protected readonly ShopDbContext Db;
         protected readonly DbSet<TEntity> DbSet;
 
-        public Repository(AppDbContext context)
+        public Repository(ShopDbContext context)
         {
             Db = context;
             DbSet = Db.Set<TEntity>();

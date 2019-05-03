@@ -4,7 +4,7 @@ using System.Text;
 
 namespace App.Infrastructure.Data.Context
 {
-    public class AppDbContextFactory : DesignTimeDbContextFactory<AppDbContext>
+    public class AppDbContextFactory : DesignTimeDbContextFactory<ShopDbContext>
     {}
     public class EventStoreSQLContextFactory : DesignTimeDbContextFactory<EventStoreSQLContext>
     {}

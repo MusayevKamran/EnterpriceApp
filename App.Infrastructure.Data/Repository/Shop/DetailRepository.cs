@@ -9,7 +9,7 @@ namespace App.Infrastructure.Data.Repository.Shop
 {
     public class DetailRepository : Repository<Detail, int>, IDetailRepository
     {
-        public DetailRepository(AppDbContext context) : base(context)
+        public DetailRepository(ShopDbContext context) : base(context)
         { }
     }
 }

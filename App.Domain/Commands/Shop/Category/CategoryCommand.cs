@@ -9,5 +9,6 @@ namespace App.Domain.Commands.Shop.Category
     {
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
+        public int SubCategory { get; set; }
     }
 }

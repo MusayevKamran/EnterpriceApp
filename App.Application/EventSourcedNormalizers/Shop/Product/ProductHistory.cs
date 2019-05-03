@@ -14,7 +14,7 @@ namespace App.Application.EventSourcedNormalizers.Shop.Product
         public static IList<ProductHistoryData> ToJavaScriptProductHistory(IList<StoredEvent> storedEvents)
         {
             HistoryData = new List<ProductHistoryData>();
-            CategoryHistoryDeserializer(storedEvents);
+            ProductHistoryDeserializer(storedEvents);
 
             var sorted = HistoryData.OrderBy(c => c.When);
             var list = new List<ProductHistoryData>();
@@ -23,8 +23,8 @@ namespace App.Application.EventSourcedNormalizers.Shop.Product
             {
                 var jsSlot = new ProductHistoryData
                 {
-                    ProductId = change.ProductId == Guid.Empty.ToString() || change.ProductId == last.ProductId
-                        ? "" : change.ProductId,
+                    ProductId = change.ProductId == 0 || change.ProductId == last.ProductId
+                        ? 0 : change.ProductId,
                     ProductName = string.IsNullOrWhiteSpace(change.ProductName) || change.ProductName == last.ProductName
                         ? "" : change.ProductName,
                     CategoryViewModel = change.CategoryViewModel.CategoryId == 0 || change.CategoryViewModel == last.CategoryViewModel
@@ -46,7 +46,7 @@ namespace App.Application.EventSourcedNormalizers.Shop.Product
             return list;
         }
 
-        private static void CategoryHistoryDeserializer(IList<StoredEvent> storedEvents)
+        private static void ProductHistoryDeserializer(IList<StoredEvent> storedEvents)
         {
             foreach (var e in storedEvents)
             {
@@ -55,7 +55,7 @@ namespace App.Application.EventSourcedNormalizers.Shop.Product
 
                 switch (e.MessageType)
                 {
-                    case "CategoryCreatedEvent":
+                    case "ProductCreatedEvent":
                         values = JsonConvert.DeserializeObject<dynamic>(e.Data);
                         slot.ProductId = values["ProductId"];
                         slot.ProductName = values["ProductName"];
@@ -67,7 +67,7 @@ namespace App.Application.EventSourcedNormalizers.Shop.Product
                         slot.When = values["Timestamp"];
                         slot.Who = e.User;
                         break;
-                    case "CategoryUpdatedEvent":
+                    case "ProductUpdatedEvent":
                         values = JsonConvert.DeserializeObject<dynamic>(e.Data);
                         values = JsonConvert.DeserializeObject<dynamic>(e.Data);
                         slot.ProductId = values["ProductId"];
@@ -80,7 +80,7 @@ namespace App.Application.EventSourcedNormalizers.Shop.Product
                         slot.When = values["Timestamp"];
                         slot.Who = e.User;
                         break;
-                    case "CategoryRemovedEvent":
+                    case "ProductRemovedEvent":
                         values = JsonConvert.DeserializeObject<dynamic>(e.Data);
                         slot.Action = "Removed";
                         slot.When = values["Timestamp"];

@@ -9,7 +9,7 @@ namespace App.Infrastructure.Data.Repository.Shop
 {
     public class SellerRepository : Repository<Seller, int>, ISellerRepository
     {
-        public SellerRepository(AppDbContext context) : base(context)
+        public SellerRepository(ShopDbContext context) : base(context)
         { }
     }
 }

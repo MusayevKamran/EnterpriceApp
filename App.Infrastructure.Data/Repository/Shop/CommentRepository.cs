@@ -9,7 +9,7 @@ namespace App.Infrastructure.Data.Repository.Shop
 {
     public class CommentRepository : Repository<Comment, int>, ICommentRepository
     {
-        public CommentRepository(AppDbContext context) : base(context)
+        public CommentRepository(ShopDbContext context) : base(context)
         { }
     }
 }

@@ -8,12 +8,14 @@ namespace App.Domain.Events.Shop.Category
 {
     public class CategoryCreatedEvent : Event
     {
-        public CategoryCreatedEvent(int categoryId, string categoryName)
+        public CategoryCreatedEvent(int categoryId, string categoryName, int subCategory)
         {
             CategoryId = categoryId;
             CategoryName = categoryName;
+            SubCategory = subCategory;
         }
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
+        public int SubCategory { get; set; }
     }
 }

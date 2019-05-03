@@ -9,7 +9,7 @@ namespace App.Infrastructure.Data.Repository.Shop
 {
     public class ProductRepository : Repository<Product, int>, IProductRepository
     {
-        public ProductRepository(AppDbContext context) : base(context)
+        public ProductRepository(ShopDbContext context) : base(context)
         { }
     }
 }

@@ -8,9 +8,10 @@ namespace App.Application.EventSourcedNormalizers.Shop.Category
 {
     public class CategoryHistoryData
     {
-        public string Action { get; set; }
-        public string CategoryId { get; set; }
+        public int CategoryId { get; set; }
         public string CategoryName { get; set; }
+        public int SubCategory { get; set; }
+        public string Action { get; set; }
         public string When { get; set; }
         public string Who { get; set; }
     }

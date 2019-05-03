@@ -108,6 +108,7 @@ namespace App.Admin
         {
             // Adding dependencies from another layers (isolated from Presentation)
             NativeInjectorBootStrapper.RegisterServices(services);
+            ShopNativeInjectorBootStrapper.RegisterShopServices(services);
         }
     }
 }

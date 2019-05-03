@@ -22,7 +22,6 @@ namespace App.Infrastructure.Data.Mappings.Shop
                 .HasMaxLength(100)
                 .IsRequired();
 
-            builder.HasMany(p => p.Products);
         }
     }
 }

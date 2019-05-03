@@ -14,9 +14,9 @@ namespace App.Application.AutoMapper.Shop
         public ViewModelToDomainMappingProfile()
         {
             CreateMap<CategoryViewModel, CreateNewCategoryCommand>()
-                .ConstructUsing(c => new CreateNewCategoryCommand(c.CategoryId, c.CategoryName));
+                .ConstructUsing(c => new CreateNewCategoryCommand(c.CategoryId, c.CategoryName, c.SubCategory));
             CreateMap<CategoryViewModel, UpdateCategoryCommand>()
-                .ConstructUsing(c => new UpdateCategoryCommand(c.CategoryId, c.CategoryName));
+                .ConstructUsing(c => new UpdateCategoryCommand(c.CategoryId, c.CategoryName, c.SubCategory));
 
             CreateMap<CommentViewModel, CreateNewCommentCommand>()
                 .ConstructUsing(c => new CreateNewCommentCommand(c.CommentId, c.CommentContent, c.Product, c.UserId));

@@ -7,10 +7,11 @@ namespace App.Domain.Commands.Shop.Category
 {
     public class UpdateCategoryCommand : CategoryCommand
     {
-        public UpdateCategoryCommand(int categoryId, string categoryName)
+        public UpdateCategoryCommand(int categoryId, string categoryName, int subCategory)
         {
             CategoryId = categoryId;
             CategoryName = categoryName;
+            SubCategory = subCategory;
         }
         public override bool IsValid()
         {

@@ -15,5 +15,6 @@ namespace App.Application.ViewModels.Shop
         [MaxLength(30)]
         [DisplayName("CategoryName")]
         public string CategoryName { get; set; }
+        public int SubCategory { get; set; }
     }
 }

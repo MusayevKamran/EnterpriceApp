@@ -15,4 +15,3 @@ D:\NET.WEB\EnterpriceApp\App.Domain.Core\obj\Debug\netcoreapp3.0\App.Domain.Core
 D:\NET.WEB\EnterpriceApp\App.Domain.Core\obj\Debug\netcoreapp3.0\App.Domain.Core.AssemblyInfo.cs
 D:\NET.WEB\EnterpriceApp\App.Domain.Core\obj\Debug\netcoreapp3.0\App.Domain.Core.dll
 D:\NET.WEB\EnterpriceApp\App.Domain.Core\obj\Debug\netcoreapp3.0\App.Domain.Core.pdb
-D:\NET.WEB\EnterpriceApp\App.Domain.Core\obj\Debug\netcoreapp3.0\App.Domain.Core.csprojAssemblyReference.cache

@@ -23,10 +23,12 @@ namespace App.Application.EventSourcedNormalizers.Shop.Category
             {
                 var jsSlot = new CategoryHistoryData
                 {
-                    CategoryId = change.CategoryId == Guid.Empty.ToString() || change.CategoryId == last.CategoryId
-                        ? "" : change.CategoryId,
+                    CategoryId = change.CategoryId == 0 || change.CategoryId == last.CategoryId
+                        ? 0 : change.CategoryId,
                     CategoryName = string.IsNullOrWhiteSpace(change.CategoryName) || change.CategoryName == last.CategoryName
                         ? "" : change.CategoryName,
+                    SubCategory = change.SubCategory == 0 || change.SubCategory == last.SubCategory
+                        ? 0 : change.SubCategory,
                     Action = string.IsNullOrWhiteSpace(change.Action) ? "" : change.Action,
                     When = change.When,
                     Who = change.Who
@@ -51,6 +53,7 @@ namespace App.Application.EventSourcedNormalizers.Shop.Category
                         values = JsonConvert.DeserializeObject<dynamic>(e.Data);
                         slot.CategoryId = values["CategoryId"];
                         slot.CategoryName = values["CategoryName"];
+                        slot.SubCategory = values["SubCategory"];
                         slot.Action = "Registered";
                         slot.When = values["Timestamp"];
                         slot.Who = e.User;
@@ -60,6 +63,7 @@ namespace App.Application.EventSourcedNormalizers.Shop.Category
                         values = JsonConvert.DeserializeObject<dynamic>(e.Data);
                         slot.CategoryId = values["CategoryId"];
                         slot.CategoryName = values["CategoryName"];
+                        slot.SubCategory = values["SubCategory"];
                         slot.Action = "Registered";
                         slot.When = values["Timestamp"];
                         slot.Who = e.User;

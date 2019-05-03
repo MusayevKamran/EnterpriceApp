@@ -5,8 +5,8 @@ namespace App.Infrastructure.Data.UoW
 {
     public class UnitOfWork : IUnitOfWork
     {
-        public readonly AppDbContext _context;
-        public UnitOfWork(AppDbContext context)
+        public readonly ShopDbContext _context;
+        public UnitOfWork(ShopDbContext context)
         {
             _context = context;
         }

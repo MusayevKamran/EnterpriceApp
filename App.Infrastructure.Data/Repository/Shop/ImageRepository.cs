@@ -10,7 +10,7 @@ namespace App.Infrastructure.Data.Repository.Shop
 {
     public class ImageRepository : Repository<Image, int>, IImageRepository
     {
-        public ImageRepository(AppDbContext context) : base(context)
+        public ImageRepository(ShopDbContext context) : base(context)
         { }
     }
 }

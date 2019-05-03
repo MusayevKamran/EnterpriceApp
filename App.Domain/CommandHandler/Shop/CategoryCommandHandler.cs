@@ -38,7 +38,7 @@ namespace App.Domain.CommandHandler.Shop
                 NotifyValidationErrors(request);
                 return Task.FromResult(false);
             }
-            var category = new Category(request.CategoryId, request.CategoryName);
+            var category = new Category(request.CategoryId, request.CategoryName, request.SubCategory);
 
             if (_categoryRepository.GetById(category.CategoryId) != null)
             {
@@ -50,7 +50,7 @@ namespace App.Domain.CommandHandler.Shop
 
             if (Commit())
             {
-                _bus.RaiseEvent(new CategoryCreatedEvent(category.CategoryId, category.CategoryName));
+                _bus.RaiseEvent(new CategoryCreatedEvent(category.CategoryId, category.CategoryName, category.SubCategory));
             }
             return Task.FromResult(true);
         }
@@ -61,7 +61,7 @@ namespace App.Domain.CommandHandler.Shop
                 NotifyValidationErrors(request);
                 Task.FromResult(false);
             }
-            var category = new Category(request.CategoryId, request.CategoryName);
+            var category = new Category(request.CategoryId, request.CategoryName, request.SubCategory);
             var existingCategory = _categoryRepository.GetById(category.CategoryId);
 
             if (existingCategory != null && existingCategory.CategoryId == category.CategoryId)
@@ -75,7 +75,7 @@ namespace App.Domain.CommandHandler.Shop
             _categoryRepository.Update(category);
             if (Commit())
             {
-                _bus.RaiseEvent(new CategoryUpdatedEvent(category.CategoryId, category.CategoryName));
+                _bus.RaiseEvent(new CategoryUpdatedEvent(category.CategoryId, category.CategoryName, category.SubCategory));
             }
             return Task.FromResult(true);
         }

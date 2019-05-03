@@ -589,4 +589,3 @@ D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.A
 D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.Api.csproj.CopyComplete
 D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.Api.dll
 D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.Api.pdb
-D:\NET.WEB\EnterpriceApp\App.Services.Api\obj\Debug\netcoreapp3.0\App.Services.Api.csprojAssemblyReference.cache
