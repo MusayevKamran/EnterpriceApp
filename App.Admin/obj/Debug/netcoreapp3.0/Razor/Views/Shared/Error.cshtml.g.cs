@@ -12,31 +12,41 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
 #line 1 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Admin;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 3 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.AccountViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 4 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.ManageViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 5 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c4eee3f4993d74b115dec849687defce31fb03ba", @"/Views/Shared/Error.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8d0df6c0c259843b3e9a8a7b548d3ee29c0d7696", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
@@ -44,12 +54,14 @@ using Microsoft.AspNetCore.Identity;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
+#nullable restore
 #line 1 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Shared\Error.cshtml"
   
     ViewData["Title"] = "Error";
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n<h1 class=\"text-danger\">Error.</h1>\r\n<h2 class=\"text-danger\">An error occurred while processing your request.</h2>\r\n");
         }
         #pragma warning restore 1998

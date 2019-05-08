@@ -28,7 +28,10 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
         },
@@ -59,23 +62,17 @@
             },
             "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
-              "version": "[3.0.0-preview3.19153.1, )"
-            },
-            "Microsoft.NETCore.App": {
-              "include": "None",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.0-preview-27324-5, )",
-              "autoReferenced": true
+              "version": "[3.0.0-preview5.19227.1, )"
             },
             "Microsoft.NETCore.Platforms": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-preview.19073.11, )",
+              "version": "[3.0.0-preview5.19224.8, )",
               "autoReferenced": true
             },
             "System.ComponentModel.Annotations": {
               "target": "Package",
-              "version": "[4.6.0-preview3.19128.7, )"
+              "version": "[4.6.0-preview5.19224.8, )"
             },
             "System.ComponentModel.Primitives": {
               "target": "Package",
@@ -114,7 +111,10 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
         },
@@ -134,22 +134,16 @@
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
-              "version": "[8.2.2, )"
+              "version": "[8.3.0, )"
             },
             "MediatR": {
               "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "include": "None",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.0-preview-27324-5, )",
-              "autoReferenced": true
+              "version": "[7.0.0, )"
             },
             "Microsoft.NETCore.Platforms": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-preview.19073.11, )",
+              "version": "[3.0.0-preview5.19224.8, )",
               "autoReferenced": true
             },
             "System.ComponentModel": {
@@ -189,7 +183,10 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
         },
@@ -218,16 +215,10 @@
               "target": "Package",
               "version": "[8.3.0, )"
             },
-            "Microsoft.NETCore.App": {
-              "include": "None",
+            "Microsoft.NETCore.Platforms": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-preview-27324-5, )",
-              "autoReferenced": true
-            },
-            "Microsoft.NETCore.Platforms": {
-              "target": "Package",
-              "version": "[3.0.0-preview.19073.11, )",
+              "version": "[3.0.0-preview5.19224.8, )",
               "autoReferenced": true
             },
             "System.ComponentModel": {
@@ -236,7 +227,7 @@
             },
             "System.ComponentModel.Annotations": {
               "target": "Package",
-              "version": "[4.6.0-preview3.19128.7, )"
+              "version": "[4.6.0-preview5.19224.8, )"
             },
             "System.Security.Claims": {
               "target": "Package",
@@ -275,7 +266,10 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
         },
@@ -299,18 +293,12 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "include": "None",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.0-preview-27324-5, )",
-              "autoReferenced": true
+              "version": "[7.0.0, )"
             },
             "Microsoft.NETCore.Platforms": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-preview.19073.11, )",
+              "version": "[3.0.0-preview5.19224.8, )",
               "autoReferenced": true
             }
           },
@@ -346,7 +334,10 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
         },
@@ -368,59 +359,59 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "JWT": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.0-preview5.19227.1, )"
             },
             "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.0-preview5.19227.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.0-preview5.19227.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.0-preview5.19227.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.0-preview5.19227.1, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.0-preview5.19227.9, )"
             },
             "Microsoft.Extensions.Configuration.FileExtensions": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.0-preview5.19227.9, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.0-preview5.19227.9, )"
             },
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "include": "None",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.0-preview-27324-5, )",
-              "autoReferenced": true
+              "version": "[3.0.0-preview5.19227.9, )"
             },
             "Microsoft.NETCore.Platforms": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-preview.19073.11, )",
+              "version": "[3.0.0-preview5.19224.8, )",
               "autoReferenced": true
             },
             "System.Reflection.TypeExtensions": {
               "target": "Package",
-              "version": "[4.5.1, )"
+              "version": "[4.6.0-preview5.19224.8, )"
             }
           },
           "imports": [

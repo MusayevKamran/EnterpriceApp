@@ -12,36 +12,48 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
 #line 1 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Admin;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 3 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.AccountViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 4 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.ManageViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 5 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 1 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\_ManageNav.cshtml"
 using App.Admin.Views.Manage;
 
 #line default
 #line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1d64613d4a45b7913f7aaaa90666c8f6364349f5", @"/Views/Manage/_ManageNav.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8d0df6c0c259843b3e9a8a7b548d3ee29c0d7696", @"/Views/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57218c316b6921e2cd61027a2387edc31a2d9471", @"/Views/Manage/_ViewImports.cshtml")]
@@ -73,22 +85,26 @@ using App.Admin.Views.Manage;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
+#nullable restore
 #line 3 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\_ManageNav.cshtml"
   
     var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n<ul class=\"nav nav-pills nav-stacked\">\r\n    <li");
             BeginWriteAttribute("class", " class=\"", 231, "\"", 281, 1);
+#nullable restore
 #line 8 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\_ManageNav.cshtml"
 WriteAttributeValue("", 239, ManageNavPages.IndexNavClass(ViewContext), 239, 42, false);
 
 #line default
 #line hidden
+#nullable disable
             EndWriteAttribute();
             WriteLiteral(">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d64613d4a45b7913f7aaaa90666c8f6364349f55556", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d64613d4a45b7913f7aaaa90666c8f6364349f55860", async() => {
                 WriteLiteral("Profile");
             }
             );
@@ -105,14 +121,16 @@ WriteAttributeValue("", 239, ManageNavPages.IndexNavClass(ViewContext), 239, 42,
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n    <li");
             BeginWriteAttribute("class", " class=\"", 330, "\"", 389, 1);
+#nullable restore
 #line 9 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\_ManageNav.cshtml"
 WriteAttributeValue("", 338, ManageNavPages.ChangePasswordNavClass(ViewContext), 338, 51, false);
 
 #line default
 #line hidden
+#nullable disable
             EndWriteAttribute();
             WriteLiteral(">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d64613d4a45b7913f7aaaa90666c8f6364349f57072", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d64613d4a45b7913f7aaaa90666c8f6364349f57414", async() => {
                 WriteLiteral("Password");
             }
             );
@@ -128,22 +146,26 @@ WriteAttributeValue("", 338, ManageNavPages.ChangePasswordNavClass(ViewContext),
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n");
+#nullable restore
 #line 10 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\_ManageNav.cshtml"
      if (hasExternalLogins)
     {
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("        <li");
             BeginWriteAttribute("class", " class=\"", 488, "\"", 547, 1);
+#nullable restore
 #line 12 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\_ManageNav.cshtml"
 WriteAttributeValue("", 496, ManageNavPages.ExternalLoginsNavClass(ViewContext), 496, 51, false);
 
 #line default
 #line hidden
+#nullable disable
             EndWriteAttribute();
             WriteLiteral(">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d64613d4a45b7913f7aaaa90666c8f6364349f58770", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d64613d4a45b7913f7aaaa90666c8f6364349f59188", async() => {
                 WriteLiteral("External logins");
             }
             );
@@ -159,21 +181,25 @@ WriteAttributeValue("", 496, ManageNavPages.ExternalLoginsNavClass(ViewContext),
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n");
+#nullable restore
 #line 13 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\_ManageNav.cshtml"
     }
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("    <li");
             BeginWriteAttribute("class", " class=\"", 620, "\"", 688, 1);
+#nullable restore
 #line 14 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\_ManageNav.cshtml"
 WriteAttributeValue("", 628, ManageNavPages.TwoFactorAuthenticationNavClass(ViewContext), 628, 60, false);
 
 #line default
 #line hidden
+#nullable disable
             EndWriteAttribute();
             WriteLiteral(">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d64613d4a45b7913f7aaaa90666c8f6364349f510451", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d64613d4a45b7913f7aaaa90666c8f6364349f510945", async() => {
                 WriteLiteral("Two-factor authentication");
             }
             );

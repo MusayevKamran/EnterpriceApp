@@ -12,36 +12,48 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
 #line 1 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Admin;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 3 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.AccountViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 4 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.ManageViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 5 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 1 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
 using App.Admin.Views.Manage;
 
 #line default
 #line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6e281ff604b0d87c27edaccbac2e0522f5cc2f17", @"/Views/Manage/ExternalLogins.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8d0df6c0c259843b3e9a8a7b548d3ee29c0d7696", @"/Views/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57218c316b6921e2cd61027a2387edc31a2d9471", @"/Views/Manage/_ViewImports.cshtml")]
@@ -78,6 +90,7 @@ using App.Admin.Views.Manage;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
+#nullable restore
 #line 3 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
   
     ViewData["Title"] = "Manage your external logins";
@@ -85,52 +98,65 @@ using App.Admin.Views.Manage;
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n");
+#nullable restore
 #line 8 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
 Write(Html.Partial("_StatusMessage", Model.StatusMessage));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n");
+#nullable restore
 #line 9 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
  if (Model.CurrentLogins?.Count > 0)
 {
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("    <h4>Registered Logins</h4>\r\n    <table class=\"table\">\r\n        <tbody>\r\n");
+#nullable restore
 #line 14 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
              foreach (var login in Model.CurrentLogins)
             {
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("                <tr>\r\n                    <td>");
+#nullable restore
 #line 17 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
                    Write(login.LoginProvider);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</td>\r\n                    <td>\r\n");
+#nullable restore
 #line 19 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
                          if (Model.ShowRemoveButton)
                         {
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e281ff604b0d87c27edaccbac2e0522f5cc2f177651", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e281ff604b0d87c27edaccbac2e0522f5cc2f178107", async() => {
                 WriteLiteral("\r\n                                <div>\r\n                                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6e281ff604b0d87c27edaccbac2e0522f5cc2f177986", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6e281ff604b0d87c27edaccbac2e0522f5cc2f178442", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
+#nullable restore
 #line 23 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => login.LoginProvider);
 
 #line default
 #line hidden
+#nullable disable
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-for", __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.Name = (string)__tagHelperAttribute_0.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
@@ -144,16 +170,18 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6e281ff604b0d87c27edaccbac2e0522f5cc2f179887", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6e281ff604b0d87c27edaccbac2e0522f5cc2f1710381", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
+#nullable restore
 #line 24 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => login.ProviderKey);
 
 #line default
 #line hidden
+#nullable disable
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-for", __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.Name = (string)__tagHelperAttribute_2.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_2);
@@ -170,11 +198,13 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 BeginWriteAttribute("title", " title=\"", 1028, "\"", 1092, 7);
                 WriteAttributeValue("", 1036, "Remove", 1036, 6, true);
                 WriteAttributeValue(" ", 1042, "this", 1043, 5, true);
+#nullable restore
 #line 25 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
 WriteAttributeValue(" ", 1047, login.LoginProvider, 1048, 20, false);
 
 #line default
 #line hidden
+#nullable disable
                 WriteAttributeValue(" ", 1068, "login", 1069, 6, true);
                 WriteAttributeValue(" ", 1074, "from", 1075, 5, true);
                 WriteAttributeValue(" ", 1079, "your", 1080, 5, true);
@@ -199,6 +229,7 @@ WriteAttributeValue(" ", 1047, login.LoginProvider, 1048, 20, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
+#nullable restore
 #line 28 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
                         }
                         else
@@ -206,72 +237,91 @@ WriteAttributeValue(" ", 1047, login.LoginProvider, 1048, 20, false);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("                            ");
             WriteLiteral(" &nbsp;\r\n");
+#nullable restore
 #line 32 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
                         }
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("                    </td>\r\n                </tr>\r\n");
+#nullable restore
 #line 35 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
             }
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("        </tbody>\r\n    </table>\r\n");
+#nullable restore
 #line 38 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
 }
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 39 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
  if (Model.OtherLogins?.Count > 0)
 {
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("    <h4>Add another service to log in.</h4>\r\n    <hr />\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e281ff604b0d87c27edaccbac2e0522f5cc2f1715155", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e281ff604b0d87c27edaccbac2e0522f5cc2f1715916", async() => {
                 WriteLiteral("\r\n        <div id=\"socialLoginList\">\r\n            <p>\r\n");
+#nullable restore
 #line 46 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
                  foreach (var provider in Model.OtherLogins)
                 {
 
 #line default
 #line hidden
+#nullable disable
                 WriteLiteral("                    <button type=\"submit\" class=\"btn btn-default\" name=\"provider\"");
                 BeginWriteAttribute("value", " value=\"", 1822, "\"", 1844, 1);
+#nullable restore
 #line 48 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
 WriteAttributeValue("", 1830, provider.Name, 1830, 14, false);
 
 #line default
 #line hidden
+#nullable disable
                 EndWriteAttribute();
                 BeginWriteAttribute("title", " title=\"", 1845, "\"", 1900, 6);
                 WriteAttributeValue("", 1853, "Log", 1853, 3, true);
                 WriteAttributeValue(" ", 1856, "in", 1857, 3, true);
                 WriteAttributeValue(" ", 1859, "using", 1860, 6, true);
                 WriteAttributeValue(" ", 1865, "your", 1866, 5, true);
+#nullable restore
 #line 48 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
 WriteAttributeValue(" ", 1870, provider.DisplayName, 1871, 21, false);
 
 #line default
 #line hidden
+#nullable disable
                 WriteAttributeValue(" ", 1892, "account", 1893, 8, true);
                 EndWriteAttribute();
                 WriteLiteral(">");
+#nullable restore
 #line 48 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
                                                                                                                                                             Write(provider.DisplayName);
 
 #line default
 #line hidden
+#nullable disable
                 WriteLiteral("</button>\r\n");
+#nullable restore
 #line 49 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
                 }
 
 #line default
 #line hidden
+#nullable disable
                 WriteLiteral("            </p>\r\n        </div>\r\n    ");
             }
             );
@@ -292,11 +342,13 @@ WriteAttributeValue(" ", 1870, provider.DisplayName, 1871, 21, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
+#nullable restore
 #line 53 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\ExternalLogins.cshtml"
 }
 
 #line default
 #line hidden
+#nullable disable
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]

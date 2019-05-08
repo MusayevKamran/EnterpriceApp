@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
 namespace App.Admin
 {
@@ -62,7 +63,11 @@ namespace App.Admin
             });
 
             services.AddAutoMapperSetup();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+
+            services.AddMvc(options =>
+                options.EnableEndpointRouting = false
+            )
+            .SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
             services.AddAuthorization(options =>
             {
@@ -77,7 +82,7 @@ namespace App.Admin
             RegisterServices(services);
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostEnvironment env)
         {
             if (env.IsDevelopment())
             {

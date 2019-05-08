@@ -83,23 +83,22 @@
 {
     <script type="text/javascript">
         $(".viewbutton").on("click", function() {
-            var categoryId = $(this).data('id');
+            var categoryId = $(this).data('CategoryId');
             $.ajax({
-                url: "https://localhost:44366/category-management/category-history/" + categoryId,
+                url: "https://localhost:44350/Category/History/" + categoryId,
                 cache: false
             }).done(function(data) {
                 var formatHtml = "<table class='table table-striped'>";
-                formatHtml += "<thead><th>Action</th><th>When</th><th>Id</th><th>Name</th><th>E-mail</th><th>Birth Date</th><th>By User</th></thead>";
+                formatHtml += "<thead><th>Id</th><th>CategoryName</th><th>SubCategory</th><th>Action</th><th>When</th><th>By User</th></thead>";
 
                 for (var i = 0; i < data.length; i++) {
                     var change = data[i];
                     formatHtml += "<tr>";
+                    formatHtml += "<td>" + change.CategoryId + "</td>";
+                    formatHtml += "<td>" + change.CategoryName + "</td>";
+                    formatHtml += "<td>" + change.SubCategory + "</td>";
                     formatHtml += "<td>" + change.action + "</td>";
                     formatHtml += "<td>" + change.when + "</td>";
-                    formatHtml += "<td>" + change.id + "</td>";
-                    formatHtml += "<td>" + change.name + "</td>";
-                    formatHtml += "<td>" + change.email + "</td>";
-                    formatHtml += "<td>" + change.birthDate + "</td>";
                     formatHtml += "<td>" + change.who + "</td>";
                     formatHtml += "</tr>";
                 }

@@ -22,7 +22,7 @@
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="8.3.0" />
     <PackageReference Include="System.ComponentModel" Version="4.3.0" />
-    <PackageReference Include="System.ComponentModel.Annotations" Version="4.6.0-preview3.19128.7" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.6.0-preview5.19224.8" />
     <PackageReference Include="System.Security.Claims" Version="4.3.0" />
   </ItemGroup>
 

@@ -14,13 +14,11 @@ namespace App.Domain.Models.Shop
             Name = name;
             Email = email;
             PhoneNumber = phoneNumber;
-            Products = new HashSet<Product>();
         }
         public int SellerId { get; set; }
         public virtual string Name { get; private set; }
         public virtual string Email { get; private set; }
         public virtual string PhoneNumber { get; private set; }
-        public virtual ICollection<Product> Products { get; private set; }
     }
 }
 

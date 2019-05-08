@@ -12,31 +12,41 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
 #line 1 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Admin;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 3 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.AccountViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 4 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.ManageViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 5 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b305a2393e04c40b677bf422b7659ad26e5c4c2b", @"/Views/Shared/Components/Summary/Default.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8d0df6c0c259843b3e9a8a7b548d3ee29c0d7696", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_Summary_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
@@ -65,23 +75,27 @@ using Microsoft.AspNetCore.Identity;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n");
+#nullable restore
 #line 2 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Shared\Components\Summary\Default.cshtml"
  if (ViewData.ModelState.ErrorCount > 0)
 {
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("    <div class=\"alert alert-danger\">\r\n        <button type=\"button\" class=\"close\" data-dismiss=\"alert\">×</button>\r\n        <h3 id=\"msgRetorno\">Oops! Something went wrong:</h3>\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b305a2393e04c40b677bf422b7659ad26e5c4c2b4268", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b305a2393e04c40b677bf422b7659ad26e5c4c2b4496", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper>();
             __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper);
+#nullable restore
 #line 7 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Shared\Components\Summary\Default.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSummary = global::Microsoft.AspNetCore.Mvc.Rendering.ValidationSummary.ModelOnly;
 
 #line default
 #line hidden
+#nullable disable
             __tagHelperExecutionContext.AddTagHelperAttribute("asp-validation-summary", __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSummary, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
             __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_0);
             await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
@@ -92,30 +106,38 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSumma
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    </div>\r\n");
+#nullable restore
 #line 9 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Shared\Components\Summary\Default.cshtml"
 }
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n");
+#nullable restore
 #line 11 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Shared\Components\Summary\Default.cshtml"
  if (!string.IsNullOrEmpty(ViewBag.Sucesso))
 {
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("    <div class=\"alert alert-success\">\r\n        <button type=\"button\" class=\"close\" data-dismiss=\"alert\">×</button>\r\n        <h3 id=\"msgRetorno\">");
+#nullable restore
 #line 15 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Shared\Components\Summary\Default.cshtml"
                        Write(ViewBag.Sucesso);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</h3>\r\n    </div>\r\n");
+#nullable restore
 #line 17 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Shared\Components\Summary\Default.cshtml"
 }
 
 #line default
 #line hidden
+#nullable disable
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]

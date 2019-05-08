@@ -12,31 +12,41 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
 #line 1 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Admin;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 3 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.AccountViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 4 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.ManageViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 5 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fd87a5ccc57ab6f29028d8acf83d8082cfd440dd", @"/Views/Category/Details.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8d0df6c0c259843b3e9a8a7b548d3ee29c0d7696", @"/Views/_ViewImports.cshtml")]
     public class Views_Category_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<App.Application.ViewModels.Shop.CategoryViewModel>
@@ -68,32 +78,40 @@ using Microsoft.AspNetCore.Identity;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n");
+#nullable restore
 #line 3 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Category\Details.cshtml"
   
     ViewData["Title"] = "Category Details";
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n<h2>");
+#nullable restore
 #line 7 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Category\Details.cshtml"
 Write(ViewData["Title"]);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</h2>\r\n\r\n<div>\r\n    <hr />\r\n    <dl class=\"dl-horizontal\">\r\n        <dt>\r\n            ");
+#nullable restore
 #line 13 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Category\Details.cshtml"
        Write(Html.DisplayNameFor(model => model.CategoryName));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n        </dt>\r\n        <dd>\r\n            ");
+#nullable restore
 #line 16 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Category\Details.cshtml"
        Write(Html.DisplayFor(model => model.CategoryName));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd87a5ccc57ab6f29028d8acf83d8082cfd440dd5723", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd87a5ccc57ab6f29028d8acf83d8082cfd440dd6065", async() => {
                 WriteLiteral("Edit");
             }
             );
@@ -106,11 +124,13 @@ Write(ViewData["Title"]);
                 throw new InvalidOperationException(InvalidTagHelperIndexerAssignment("asp-route-id", "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper", "RouteValues"));
             }
             BeginWriteTagHelperAttribute();
+#nullable restore
 #line 21 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Category\Details.cshtml"
                            WriteLiteral(Model.CategoryId);
 
 #line default
 #line hidden
+#nullable disable
             __tagHelperStringValueBuffer = EndWriteTagHelperAttribute();
             __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.RouteValues["id"] = __tagHelperStringValueBuffer;
             __tagHelperExecutionContext.AddTagHelperAttribute("asp-route-id", __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.RouteValues["id"], global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -123,7 +143,7 @@ Write(ViewData["Title"]);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" \r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd87a5ccc57ab6f29028d8acf83d8082cfd440dd7902", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd87a5ccc57ab6f29028d8acf83d8082cfd440dd8282", async() => {
                 WriteLiteral("Back to List");
             }
             );

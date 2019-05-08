@@ -12,31 +12,41 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
 #line 1 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Admin;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 3 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.AccountViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 4 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.ManageViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 5 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bb74e871fcdbb00854208a88d471d0db65a1c663", @"/Views/Shared/_LoginPartial.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8d0df6c0c259843b3e9a8a7b548d3ee29c0d7696", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__LoginPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
@@ -78,22 +88,26 @@ using Microsoft.AspNetCore.Identity;
         {
             WriteLiteral("\r\n");
             WriteLiteral("\r\n");
+#nullable restore
 #line 5 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Shared\_LoginPartial.cshtml"
  if (SignInManager.IsSignedIn(User))
 {
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb74e871fcdbb00854208a88d471d0db65a1c6637378", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb74e871fcdbb00854208a88d471d0db65a1c6637606", async() => {
                 WriteLiteral("\r\n        <ul class=\"nav navbar-nav navbar-right\">\r\n            <li>\r\n                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb74e871fcdbb00854208a88d471d0db65a1c6637726", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb74e871fcdbb00854208a88d471d0db65a1c6637954", async() => {
                     WriteLiteral("Hello ");
+#nullable restore
 #line 10 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Shared\_LoginPartial.cshtml"
                                                                                           Write(UserManager.GetUserName(User));
 
 #line default
 #line hidden
+#nullable disable
                     WriteLiteral("!");
                 }
                 );
@@ -138,6 +152,7 @@ using Microsoft.AspNetCore.Identity;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
+#nullable restore
 #line 17 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Shared\_LoginPartial.cshtml"
 }
 else
@@ -145,8 +160,9 @@ else
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("    <ul class=\"nav navbar-nav navbar-right\">\r\n        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb74e871fcdbb00854208a88d471d0db65a1c66312082", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb74e871fcdbb00854208a88d471d0db65a1c66312386", async() => {
                 WriteLiteral("Register");
             }
             );
@@ -166,7 +182,7 @@ else
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n        <li>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb74e871fcdbb00854208a88d471d0db65a1c66313663", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb74e871fcdbb00854208a88d471d0db65a1c66313967", async() => {
                 WriteLiteral("Log in");
             }
             );
@@ -186,11 +202,13 @@ else
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</li>\r\n    </ul>\r\n");
+#nullable restore
 #line 24 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Shared\_LoginPartial.cshtml"
 }
 
 #line default
 #line hidden
+#nullable disable
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]

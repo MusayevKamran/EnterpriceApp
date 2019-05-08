@@ -34,3 +34,5 @@ D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Identity\obj\Debug\netc
 D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Identity\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Identity.csproj.CopyComplete
 D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Identity\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Identity.dll
 D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Identity\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Identity.pdb
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Identity\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Stores.dll
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Identity\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Stores.xml

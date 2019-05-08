@@ -2,9 +2,6 @@
 using App.Domain.Interfaces;
 using App.Infrastructure.Data.Repository.EventSourcing;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace App.Infrastructure.Data.EventSourcing
 {

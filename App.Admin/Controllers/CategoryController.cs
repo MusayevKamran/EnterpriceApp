@@ -53,7 +53,7 @@ namespace App.Admin.Controllers
         }
 
         [HttpPost]
-        [Authorize(Policy = "CanWriteCategoryData")]
+        //[Authorize(Policy = "CanWriteCategoryData")]
         [ValidateAntiForgeryToken]
         public IActionResult Create(CategoryViewModel categoryViewModel)
         {
@@ -69,7 +69,7 @@ namespace App.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Policy = "CanWriteCategoryData")]
+        //[Authorize(Policy = "CanWriteCategoryData")]
         public IActionResult Edit(int? id)
         {
             if (id == null)
@@ -134,12 +134,12 @@ namespace App.Admin.Controllers
             return RedirectToAction("Index");
         }
 
-        //[AllowAnonymous]
-        //[Route("Category-management/Category-history/{id:guid}")]
-        //public JsonResult History(int id)
-        //{
-        //    var categoryHistoryData = _categoryAppService.GetAllHistory(id);
-        //    return Json(categoryHistoryData);
-        //}
+
+        [AllowAnonymous]
+        public JsonResult History(int id)
+        {
+            var categoryHistoryData = _categoryAppService.GetAllHistory(id);
+            return Json(categoryHistoryData);
+        }
     }
 }

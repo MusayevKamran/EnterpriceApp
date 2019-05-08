@@ -12,36 +12,48 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
 #line 1 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Admin;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 3 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.AccountViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 4 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using App.Infrastructure.CrossCutting.Identity.Models.ManageViewModels;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 5 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
+#nullable disable
+#nullable restore
 #line 1 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
 using App.Admin.Views.Manage;
 
 #line default
 #line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"52b32d1b703d733769f5e9ee4dd84d1003847c19", @"/Views/Manage/TwoFactorAuthentication.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8d0df6c0c259843b3e9a8a7b548d3ee29c0d7696", @"/Views/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57218c316b6921e2cd61027a2387edc31a2d9471", @"/Views/Manage/_ViewImports.cshtml")]
@@ -74,6 +86,7 @@ using App.Admin.Views.Manage;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
+#nullable restore
 #line 3 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
   
     ViewData["Title"] = "Two-factor authentication";
@@ -81,13 +94,17 @@ using App.Admin.Views.Manage;
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n<h4>");
+#nullable restore
 #line 8 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
 Write(ViewData["Title"]);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("</h4>\r\n");
+#nullable restore
 #line 9 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
  if (Model.Is2faEnabled)
 {
@@ -96,8 +113,9 @@ Write(ViewData["Title"]);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("        <div class=\"alert alert-danger\">\r\n            <strong>You have no recovery codes left.</strong>\r\n            <p>You must ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c196242", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c196584", async() => {
                 WriteLiteral("generate a new set of recovery codes");
             }
             );
@@ -113,6 +131,7 @@ Write(ViewData["Title"]);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" before you can log in with a recovery code.</p>\r\n        </div>\r\n");
+#nullable restore
 #line 17 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
     }
     else if (Model.RecoveryCodesLeft == 1)
@@ -120,8 +139,9 @@ Write(ViewData["Title"]);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("        <div class=\"alert alert-danger\">\r\n            <strong>You have 1 recovery code left.</strong>\r\n            <p>You can ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c197836", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c198216", async() => {
                 WriteLiteral("generate a new set of recovery codes");
             }
             );
@@ -137,6 +157,7 @@ Write(ViewData["Title"]);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(".</p>\r\n        </div>\r\n");
+#nullable restore
 #line 24 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
     }
     else if (Model.RecoveryCodesLeft <= 3)
@@ -144,14 +165,17 @@ Write(ViewData["Title"]);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("        <div class=\"alert alert-warning\">\r\n            <strong>You have ");
+#nullable restore
 #line 28 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
                         Write(Model.RecoveryCodesLeft);
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral(" recovery codes left.</strong>\r\n            <p>You should ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c199601", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c1910057", async() => {
                 WriteLiteral("generate a new set of recovery codes");
             }
             );
@@ -167,14 +191,16 @@ Write(ViewData["Title"]);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(".</p>\r\n        </div>\r\n");
+#nullable restore
 #line 31 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
     }
 
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c1910975", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c1911470", async() => {
                 WriteLiteral("Disable 2FA");
             }
             );
@@ -191,7 +217,7 @@ Write(ViewData["Title"]);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c1912223", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c1912718", async() => {
                 WriteLiteral("Reset recovery codes");
             }
             );
@@ -208,20 +234,24 @@ Write(ViewData["Title"]);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
+#nullable restore
 #line 35 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
 }
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n<h5>Authenticator app</h5>\r\n");
+#nullable restore
 #line 38 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
  if (!Model.HasAuthenticator)
 {
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c1913857", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c1914428", async() => {
                 WriteLiteral("Add authenticator app");
             }
             );
@@ -238,6 +268,7 @@ Write(ViewData["Title"]);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
+#nullable restore
 #line 41 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
 }
 else
@@ -245,8 +276,9 @@ else
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c1915280", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c1915889", async() => {
                 WriteLiteral("Configure authenticator app");
             }
             );
@@ -263,7 +295,7 @@ else
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c1916544", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52b32d1b703d733769f5e9ee4dd84d1003847c1917153", async() => {
                 WriteLiteral("Reset authenticator key");
             }
             );
@@ -280,19 +312,23 @@ else
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
+#nullable restore
 #line 46 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
 }
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n");
             DefineSection("Scripts", async() => {
                 WriteLiteral("\r\n    ");
+#nullable restore
 #line 49 "D:\NET.WEB\EnterpriceApp\App.Admin\Views\Manage\TwoFactorAuthentication.cshtml"
 Write(await Html.PartialAsync("_ValidationScriptsPartial"));
 
 #line default
 #line hidden
+#nullable disable
                 WriteLiteral("\r\n");
             }
             );

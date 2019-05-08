@@ -42,3 +42,5 @@ D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.IoC\obj\Debug\netcoreap
 D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.IoC\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.IoC.csproj.CopyComplete
 D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.IoC\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.IoC.dll
 D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.IoC\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.IoC.pdb
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.IoC\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Stores.dll
+D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.IoC\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Stores.xml
