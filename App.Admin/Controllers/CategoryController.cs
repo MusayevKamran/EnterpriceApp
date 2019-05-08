@@ -1,4 +1,3 @@
-using System;
 using App.Application.Interfaces.Shop;
 using App.Application.ViewModels.Shop;
 using App.Domain.Core.Notifications;
@@ -136,10 +135,10 @@ namespace App.Admin.Controllers
 
 
         [AllowAnonymous]
-        public JsonResult History(int id)
+        public IActionResult History(int id)
         {
             var categoryHistoryData = _categoryAppService.GetAllHistory(id);
-            return Json(categoryHistoryData);
+            return new ObjectResult(categoryHistoryData);
         }
     }
 }
