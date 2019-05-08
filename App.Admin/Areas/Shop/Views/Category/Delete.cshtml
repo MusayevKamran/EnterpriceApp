@@ -1,0 +1,30 @@
+@model App.Application.ViewModels.Shop.CategoryViewModel
+
+@{
+    ViewData["Title"] = "Delete Category";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Delete">
+    <vc:summary />
+
+    <h3>Are you sure you want to delete the @Model.CategoryName?</h3>
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.CategoryName)
+            </dd>
+        </dl>
+
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-info">Back to List</a>
+        </div>
+    </div>
+</form>
