@@ -872,15 +872,6 @@
           "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
         }
       },
-      "Microsoft.NETCore.Platforms/3.0.0-preview5.19224.8": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/_._": {}
-        }
-      },
       "Microsoft.NETCore.Targets/1.1.0": {
         "type": "package",
         "compile": {
@@ -3459,23 +3450,6 @@
         "lib/netstandard2.0/Microsoft.Net.Http.Headers.xml",
         "microsoft.net.http.headers.2.2.0.nupkg.sha512",
         "microsoft.net.http.headers.nuspec"
-      ]
-    },
-    "Microsoft.NETCore.Platforms/3.0.0-preview5.19224.8": {
-      "sha512": "MEt1XzSndofi4WBoGaRcMZdy9rqNtZITVZev2PTtXizcNe4csoN7U638Q73M93I/LxroBAI1IB+6HQOuklkKrw==",
-      "type": "package",
-      "path": "microsoft.netcore.platforms/3.0.0-preview5.19224.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.3.0.0-preview5.19224.8.nupkg.sha512",
-        "microsoft.netcore.platforms.nuspec",
-        "runtime.json",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
@@ -7792,9 +7766,7 @@
       "App.Application >= 1.0.0",
       "App.Domain >= 1.0.0",
       "App.Infrastructure.CrossCutting.Identity >= 1.0.0",
-      "App.Infrastructure.Data >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.Analyzers >= 3.0.0-preview5.19227.1",
-      "Microsoft.NETCore.Platforms >= 3.0.0-preview5.19224.8"
+      "App.Infrastructure.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7859,18 +7831,6 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Analyzers": {
-            "target": "Package",
-            "version": "[3.0.0-preview5.19227.1, )"
-          },
-          "Microsoft.NETCore.Platforms": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[3.0.0-preview5.19224.8, )",
-            "autoReferenced": true
-          }
-        },
         "imports": [
           "net461"
         ],

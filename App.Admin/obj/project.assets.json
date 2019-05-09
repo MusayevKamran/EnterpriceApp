@@ -3126,8 +3126,7 @@
           "App.Application": "1.0.0",
           "App.Domain": "1.0.0",
           "App.Infrastructure.CrossCutting.Identity": "1.0.0",
-          "App.Infrastructure.Data": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Analyzers": "3.0.0-preview5.19227.1"
+          "App.Infrastructure.Data": "1.0.0"
         },
         "compile": {
           "bin/placeholder/App.Infrastructure.CrossCutting.IoC.dll": {}
