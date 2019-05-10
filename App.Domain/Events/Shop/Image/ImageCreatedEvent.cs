@@ -13,6 +13,7 @@ namespace App.Domain.Events.Shop.Image
             ImageLink = imageLink;
             ProfileImage = profileImage;
             Product = product;
+            AggregateId = imageId;
         }
         public int ImageId { get; set; }
         public string ImageLink { get; set; }

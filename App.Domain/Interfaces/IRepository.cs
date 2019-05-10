@@ -5,7 +5,7 @@ using System.Text;
 
 namespace App.Domain.Interfaces
 {
-    public interface IRepository<TEntity, TId> : IDisposable
+    public interface IRepository<TEntity, TId> : IDisposable where TEntity : class
     {
         void Add(TEntity obj);
         TEntity GetById(TId id);

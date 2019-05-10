@@ -15,6 +15,7 @@ namespace App.Domain.Events.Shop.Product
             Detail = detail;
             Seller = seller;
             Images = images;
+            AggregateId = productId;
         }
         public int ProductId { get; set; }
         public string ProductName { get; set; }

@@ -13,6 +13,7 @@ namespace App.Domain.Events.Shop.Comment
             CommentContent = commentContent;
             Product = product;
             UserID = userId;
+            AggregateId = commentId;
         }
         public int CommentId { get; set; }
         public string CommentContent { get; set; }

@@ -13,6 +13,7 @@ namespace App.Domain.Events.Shop.Category
             CategoryId = categoryId;
             CategoryName = categoryName;
             SubCategory = subCategory;
+            AggregateId = categoryId;
         }
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }

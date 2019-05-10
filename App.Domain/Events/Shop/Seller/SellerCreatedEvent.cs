@@ -13,6 +13,7 @@ namespace App.Domain.Events.Shop.Seller
             Name = name;
             Email = email;
             PhoneNumber = phoneNumber;
+            AggregateId = sellerId;
         }
         public int SellerId { get; set; }
         public string Name { get; private set; }

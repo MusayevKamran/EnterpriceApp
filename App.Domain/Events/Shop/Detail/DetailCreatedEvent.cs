@@ -13,6 +13,7 @@ namespace App.Domain.Events.Shop.Detail
             DetailName = detailName;
             DetailFeature = detailFeature;
             Category = category;
+            AggregateId = detailId;
         }
         public int DetailId { get; set; }
         public string DetailName { get; set; }

@@ -62,9 +62,9 @@ namespace App.Domain.CommandHandler.Shop
                 Task.FromResult(false);
             }
             var category = new Category(request.CategoryId, request.CategoryName, request.SubCategory);
-            var existingCategory = _categoryRepository.GetById(category.CategoryId);
+            var existingCategory = _categoryRepository.GetByIdNoTracking(category.CategoryId);
 
-            if (existingCategory != null && existingCategory.CategoryId == category.CategoryId)
+            if (existingCategory != null && existingCategory.CategoryId != category.CategoryId)
             {
                 if (!existingCategory.Equals(category))
                 {

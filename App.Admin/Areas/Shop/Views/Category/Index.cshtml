@@ -4,17 +4,12 @@
     ViewData["Title"] = "Category Management";
 }
 
-<div>
-    <h2>@ViewData["Title"]</h2>
-</div>
-<hr />
-
 <div class="row">
     <div class="col-md-12">
         <div>
             <div class="pull-left">
                 <a asp-action="Create" class="btn btn-primary">
-                    <span title="Register New" class="glyphicon glyphicon-plus-sign"></span> Register New
+                    <span title="Create New Category" class="glyphicon glyphicon-plus-sign"></span> Create New Category
                 </a>
             </div>
         </div>
@@ -39,7 +34,7 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.CategoryName)
                 </td>
-                <td>
+                <td class="pull-right">
                     <a asp-action="Edit" asp-route-id="@item.CategoryId" title="Edit" class="btn btn-warning">
                         <span class="glyphicon glyphicon-pencil"></span>
                     </a>
