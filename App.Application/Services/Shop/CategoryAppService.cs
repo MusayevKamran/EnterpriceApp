@@ -9,6 +9,8 @@ using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace App.Application.Services.Shop
@@ -39,7 +41,12 @@ namespace App.Application.Services.Shop
         {
             return _categoryRepository.GetAll().ProjectTo<CategoryViewModel>(_mapper.ConfigurationProvider);
         }
-
+        public IEnumerable<CategoryViewModel> GetFilteredList(Expression<Func<CategoryViewModel, bool>> filter)
+        {
+            return filter == null
+               ? _categoryRepository.GetAll().ProjectTo<CategoryViewModel>(_mapper.ConfigurationProvider)
+               : _categoryRepository.GetAll().ProjectTo<CategoryViewModel>(_mapper.ConfigurationProvider).Where(filter);
+        }
         public IList<CategoryHistoryData> GetAllHistory(int id)
         {
             return CategoryHistory.ToJavaScriptCategoryHistory(_eventStoreRepository.All(id));
