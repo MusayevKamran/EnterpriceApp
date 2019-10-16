@@ -22,3 +22,14 @@ D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreap
 D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.csproj.CopyComplete
 D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.dll
 D:\NET.WEB\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.pdb
+D:\Custom\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.deps.json
+D:\Custom\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.dll
+D:\Custom\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.pdb
+D:\Custom\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.0\App.Domain.Core.dll
+D:\Custom\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.0\App.Domain.Core.pdb
+D:\Custom\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.csprojAssemblyReference.cache
+D:\Custom\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.AssemblyInfoInputs.cache
+D:\Custom\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.AssemblyInfo.cs
+D:\Custom\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.csproj.CopyComplete
+D:\Custom\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.dll
+D:\Custom\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.pdb

@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "FluentValidation/8.3.0": {
+      "FluentValidation/8.5.0": {
         "type": "package",
         "dependencies": {
           "System.ComponentModel.Annotations": "4.4.1"
@@ -23,7 +23,7 @@
           "lib/netstandard2.0/MediatR.dll": {}
         }
       },
-      "Microsoft.NETCore.Platforms/3.0.0-preview5.19224.8": {
+      "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -64,13 +64,13 @@
           "lib/netstandard1.3/System.ComponentModel.dll": {}
         }
       },
-      "System.ComponentModel.Annotations/4.6.0-preview5.19224.8": {
+      "System.ComponentModel.Annotations/4.7.0-preview1.19504.10": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp2.0/_._": {}
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp2.0/_._": {}
+          "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {}
         }
       },
       "System.Globalization/4.3.0": {
@@ -211,7 +211,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
-          "FluentValidation": "8.3.0",
+          "FluentValidation": "8.5.0",
           "MediatR": "7.0.0",
           "System.ComponentModel": "4.3.0"
         },
@@ -239,14 +239,14 @@
     }
   },
   "libraries": {
-    "FluentValidation/8.3.0": {
-      "sha512": "tQULydqVfFi68qjEw4Y+P3wM1Xp7kppLpUqPVKI6u8NDwlPVTm6V96qnLWCTO4khn7WtQ1p3ysnrNTl98fdJpA==",
+    "FluentValidation/8.5.0": {
+      "sha512": "gH9TOcn/l4WEG+h17z9sOPUf8rYX2NKBZ4hQjdPQWLeSyGlUiTCVVv6Dmpg2573Wtl2u1y11YmmhUO31gcZkeQ==",
       "type": "package",
-      "path": "fluentvalidation/8.3.0",
+      "path": "fluentvalidation/8.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fluentvalidation.8.3.0.nupkg.sha512",
+        "fluentvalidation.8.5.0.nupkg.sha512",
         "fluentvalidation.nuspec",
         "lib/net45/FluentValidation.dll",
         "lib/net45/FluentValidation.xml",
@@ -271,21 +271,19 @@
         "mediatr.nuspec"
       ]
     },
-    "Microsoft.NETCore.Platforms/3.0.0-preview5.19224.8": {
-      "sha512": "MEt1XzSndofi4WBoGaRcMZdy9rqNtZITVZev2PTtXizcNe4csoN7U638Q73M93I/LxroBAI1IB+6HQOuklkKrw==",
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/3.0.0-preview5.19224.8",
+      "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.3.0.0-preview5.19224.8.nupkg.sha512",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
-        "runtime.json",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "runtime.json"
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
@@ -428,10 +426,10 @@
         "system.componentmodel.nuspec"
       ]
     },
-    "System.ComponentModel.Annotations/4.6.0-preview5.19224.8": {
-      "sha512": "duVNk1aNmyK3VzQYBjkgiCuC3ImGPbzHoo19vLqTgAhnsrSsAD0NWjrMqdXaHRk930wBikgO2IHYbUxa8xe/6Q==",
+    "System.ComponentModel.Annotations/4.7.0-preview1.19504.10": {
+      "sha512": "7vmAyHSaY44nw1uXZuLG/+3qwvWei1Ciz5Tn+Pih6OUrgVJo3wYlGk7TBazDmNp5Z1tctyK7obk+DwqZ8BHUDA==",
       "type": "package",
-      "path": "system.componentmodel.annotations/4.6.0-preview5.19224.8",
+      "path": "system.componentmodel.annotations/4.7.0-preview1.19504.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -441,14 +439,12 @@
         "lib/MonoTouch10/_._",
         "lib/net45/_._",
         "lib/net461/System.ComponentModel.Annotations.dll",
-        "lib/net461/System.ComponentModel.Annotations.xml",
         "lib/netcore50/System.ComponentModel.Annotations.dll",
-        "lib/netcoreapp2.0/_._",
         "lib/netstandard1.4/System.ComponentModel.Annotations.dll",
         "lib/netstandard2.0/System.ComponentModel.Annotations.dll",
-        "lib/netstandard2.0/System.ComponentModel.Annotations.xml",
+        "lib/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.1/System.ComponentModel.Annotations.xml",
         "lib/portable-net45+win8/_._",
-        "lib/uap10.0.16299/_._",
         "lib/win8/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
@@ -470,7 +466,6 @@
         "ref/netcore50/ru/System.ComponentModel.Annotations.xml",
         "ref/netcore50/zh-hans/System.ComponentModel.Annotations.xml",
         "ref/netcore50/zh-hant/System.ComponentModel.Annotations.xml",
-        "ref/netcoreapp2.0/_._",
         "ref/netstandard1.1/System.ComponentModel.Annotations.dll",
         "ref/netstandard1.1/System.ComponentModel.Annotations.xml",
         "ref/netstandard1.1/de/System.ComponentModel.Annotations.xml",
@@ -506,14 +501,15 @@
         "ref/netstandard1.4/zh-hant/System.ComponentModel.Annotations.xml",
         "ref/netstandard2.0/System.ComponentModel.Annotations.dll",
         "ref/netstandard2.0/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.1/System.ComponentModel.Annotations.xml",
         "ref/portable-net45+win8/_._",
-        "ref/uap10.0.16299/_._",
         "ref/win8/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.annotations.4.6.0-preview5.19224.8.nupkg.sha512",
+        "system.componentmodel.annotations.4.7.0-preview1.19504.10.nupkg.sha512",
         "system.componentmodel.annotations.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -1275,57 +1271,43 @@
     ".NETCoreApp,Version=v3.0": [
       "App.Domain.Core >= 1.0.0",
       "App.Infrastructure.CrossCutting.Bus >= 1.0.0",
-      "FluentValidation >= 8.3.0",
-      "Microsoft.NETCore.Platforms >= 3.0.0-preview5.19224.8",
+      "FluentValidation >= 8.5.0",
       "System.ComponentModel >= 4.3.0",
-      "System.ComponentModel.Annotations >= 4.6.0-preview5.19224.8",
+      "System.ComponentModel.Annotations >= 4.7.0-preview1.19504.10",
       "System.Security.Claims >= 4.3.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kamra\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\kamra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj",
+      "projectUniqueName": "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj",
       "projectName": "App.Domain",
-      "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\App.Domain.csproj",
+      "projectPath": "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj",
       "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-      "outputPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain\\obj\\",
+      "outputPath": "D:\\Custom\\EnterpriceApp\\App.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
-        "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {
-              "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj"
+            "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {
+              "projectPath": "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj"
             },
-            "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj": {
-              "projectPath": "D:\\NET.WEB\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj"
+            "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj": {
+              "projectPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj"
             }
           }
         }
@@ -1341,13 +1323,7 @@
         "dependencies": {
           "FluentValidation": {
             "target": "Package",
-            "version": "[8.3.0, )"
-          },
-          "Microsoft.NETCore.Platforms": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[3.0.0-preview5.19224.8, )",
-            "autoReferenced": true
+            "version": "[8.5.0, )"
           },
           "System.ComponentModel": {
             "target": "Package",
@@ -1355,7 +1331,7 @@
           },
           "System.ComponentModel.Annotations": {
             "target": "Package",
-            "version": "[4.6.0-preview5.19224.8, )"
+            "version": "[4.7.0-preview1.19504.10, )"
           },
           "System.Security.Claims": {
             "target": "Package",
@@ -1363,10 +1339,21 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

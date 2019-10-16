@@ -26,3 +26,16 @@ D:\NET.WEB\EnterpriceApp\App.Domain\bin\Debug\netcoreapp3.0\App.Infrastructure.C
 D:\NET.WEB\EnterpriceApp\App.Domain\bin\Debug\netcoreapp3.0\App.Domain.Core.pdb
 D:\NET.WEB\EnterpriceApp\App.Domain\bin\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.pdb
 D:\NET.WEB\EnterpriceApp\App.Domain\obj\Debug\netcoreapp3.0\App.Domain.csproj.CopyComplete
+D:\Custom\EnterpriceApp\App.Domain\bin\Debug\netcoreapp3.0\App.Domain.deps.json
+D:\Custom\EnterpriceApp\App.Domain\bin\Debug\netcoreapp3.0\App.Domain.dll
+D:\Custom\EnterpriceApp\App.Domain\bin\Debug\netcoreapp3.0\App.Domain.pdb
+D:\Custom\EnterpriceApp\App.Domain\bin\Debug\netcoreapp3.0\App.Domain.Core.dll
+D:\Custom\EnterpriceApp\App.Domain\bin\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.dll
+D:\Custom\EnterpriceApp\App.Domain\bin\Debug\netcoreapp3.0\App.Domain.Core.pdb
+D:\Custom\EnterpriceApp\App.Domain\bin\Debug\netcoreapp3.0\App.Infrastructure.CrossCutting.Bus.pdb
+D:\Custom\EnterpriceApp\App.Domain\obj\Debug\netcoreapp3.0\App.Domain.csprojAssemblyReference.cache
+D:\Custom\EnterpriceApp\App.Domain\obj\Debug\netcoreapp3.0\App.Domain.AssemblyInfoInputs.cache
+D:\Custom\EnterpriceApp\App.Domain\obj\Debug\netcoreapp3.0\App.Domain.AssemblyInfo.cs
+D:\Custom\EnterpriceApp\App.Domain\obj\Debug\netcoreapp3.0\App.Domain.csproj.CopyComplete
+D:\Custom\EnterpriceApp\App.Domain\obj\Debug\netcoreapp3.0\App.Domain.dll
+D:\Custom\EnterpriceApp\App.Domain\obj\Debug\netcoreapp3.0\App.Domain.pdb

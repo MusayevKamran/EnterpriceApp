@@ -9,6 +9,7 @@ using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace App.Application.Services.Shop
@@ -66,6 +67,11 @@ namespace App.Application.Services.Shop
         {
             var updateCommand = _mapper.Map<UpdateProductCommand>(categoryViewModel);
             Bus.SendCommand(updateCommand);
+        }
+
+        public IEnumerable<ProductViewModel> GetFilteredList(Expression<Func<ProductViewModel, bool>> filter)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -8,23 +8,22 @@
     ".NETCoreApp,Version=v3.0": {
       "App.Domain.Core/1.0.0": {
         "dependencies": {
-          "FluentValidation": "8.3.0",
+          "FluentValidation": "8.5.0",
           "MediatR": "7.0.0",
-          "Microsoft.NETCore.Platforms": "3.0.0-preview5.19224.8",
           "System.ComponentModel": "4.3.0"
         },
         "runtime": {
           "App.Domain.Core.dll": {}
         }
       },
-      "FluentValidation/8.3.0": {
+      "FluentValidation/8.5.0": {
         "dependencies": {
           "System.ComponentModel.Annotations": "4.4.1"
         },
         "runtime": {
           "lib/netstandard2.0/FluentValidation.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.3.0.0"
+            "fileVersion": "8.5.0.0"
           }
         }
       },
@@ -36,7 +35,7 @@
           }
         }
       },
-      "Microsoft.NETCore.Platforms/3.0.0-preview5.19224.8": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "System.ComponentModel/4.3.0": {
         "dependencies": {
@@ -46,7 +45,7 @@
       "System.ComponentModel.Annotations/4.4.1": {},
       "System.Runtime/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "3.0.0-preview5.19224.8",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       }
@@ -58,12 +57,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FluentValidation/8.3.0": {
+    "FluentValidation/8.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tQULydqVfFi68qjEw4Y+P3wM1Xp7kppLpUqPVKI6u8NDwlPVTm6V96qnLWCTO4khn7WtQ1p3ysnrNTl98fdJpA==",
-      "path": "fluentvalidation/8.3.0",
-      "hashPath": "fluentvalidation.8.3.0.nupkg.sha512"
+      "sha512": "sha512-gH9TOcn/l4WEG+h17z9sOPUf8rYX2NKBZ4hQjdPQWLeSyGlUiTCVVv6Dmpg2573Wtl2u1y11YmmhUO31gcZkeQ==",
+      "path": "fluentvalidation/8.5.0",
+      "hashPath": "fluentvalidation.8.5.0.nupkg.sha512"
     },
     "MediatR/7.0.0": {
       "type": "package",
@@ -72,12 +71,12 @@
       "path": "mediatr/7.0.0",
       "hashPath": "mediatr.7.0.0.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/3.0.0-preview5.19224.8": {
+    "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MEt1XzSndofi4WBoGaRcMZdy9rqNtZITVZev2PTtXizcNe4csoN7U638Q73M93I/LxroBAI1IB+6HQOuklkKrw==",
-      "path": "microsoft.netcore.platforms/3.0.0-preview5.19224.8",
-      "hashPath": "microsoft.netcore.platforms.3.0.0-preview5.19224.8.nupkg.sha512"
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Targets/1.1.0": {
       "type": "package",
