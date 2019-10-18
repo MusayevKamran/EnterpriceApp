@@ -18,7 +18,6 @@ D:\NET.WEB\EnterpriceApp\App.Domain.Core\obj\Debug\netcoreapp3.0\App.Domain.Core
 D:\Custom\EnterpriceApp\App.Domain.Core\bin\Debug\netcoreapp3.0\App.Domain.Core.deps.json
 D:\Custom\EnterpriceApp\App.Domain.Core\bin\Debug\netcoreapp3.0\App.Domain.Core.dll
 D:\Custom\EnterpriceApp\App.Domain.Core\bin\Debug\netcoreapp3.0\App.Domain.Core.pdb
-D:\Custom\EnterpriceApp\App.Domain.Core\obj\Debug\netcoreapp3.0\App.Domain.Core.csprojAssemblyReference.cache
 D:\Custom\EnterpriceApp\App.Domain.Core\obj\Debug\netcoreapp3.0\App.Domain.Core.AssemblyInfoInputs.cache
 D:\Custom\EnterpriceApp\App.Domain.Core\obj\Debug\netcoreapp3.0\App.Domain.Core.AssemblyInfo.cs
 D:\Custom\EnterpriceApp\App.Domain.Core\obj\Debug\netcoreapp3.0\App.Domain.Core.dll
