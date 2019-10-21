@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\kamra\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\kamra\\.nuget\\packages"
+    ]
+  }
+}
