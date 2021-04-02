@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "GOf4SctIMlwkGzGyIRVm+r8fcOVFwFR7TRJ523R4GUavHMmsMOMeLKbjJXKvvWBncHASjlXpxcDP+g0oSiXRfw==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\fluentvalidation\\8.5.0\\fluentvalidation.8.5.0.nupkg.sha512",
+    "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
+    "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

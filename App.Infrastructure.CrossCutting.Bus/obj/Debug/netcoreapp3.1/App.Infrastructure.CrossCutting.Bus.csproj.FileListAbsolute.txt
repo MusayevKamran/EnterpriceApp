@@ -1,0 +1,12 @@
+C:\Projects\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.1\App.Infrastructure.CrossCutting.Bus.deps.json
+C:\Projects\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.1\App.Infrastructure.CrossCutting.Bus.dll
+C:\Projects\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.1\App.Infrastructure.CrossCutting.Bus.pdb
+C:\Projects\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.1\App.Domain.Core.dll
+C:\Projects\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\bin\Debug\netcoreapp3.1\App.Domain.Core.pdb
+C:\Projects\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\App.Infrastructure.CrossCutting.Bus.csprojAssemblyReference.cache
+C:\Projects\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\App.Infrastructure.CrossCutting.Bus.AssemblyInfoInputs.cache
+C:\Projects\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\App.Infrastructure.CrossCutting.Bus.AssemblyInfo.cs
+C:\Projects\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\App.Infrastructure.CrossCutting.Bus.csproj.CoreCompileInputs.cache
+C:\Projects\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\App.Infrastructure.CrossCutting.Bus.csproj.CopyComplete
+C:\Projects\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\App.Infrastructure.CrossCutting.Bus.dll
+C:\Projects\EnterpriceApp\App.Infrastructure.CrossCutting.Bus\obj\Debug\netcoreapp3.1\App.Infrastructure.CrossCutting.Bus.pdb

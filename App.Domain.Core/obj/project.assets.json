@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {
+    ".NETCoreApp,Version=v3.1": {
       "FluentValidation/8.5.0": {
         "type": "package",
         "dependencies": {
@@ -375,37 +375,38 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": [
+    ".NETCoreApp,Version=v3.1": [
       "FluentValidation >= 8.5.0",
       "MediatR >= 7.0.0",
       "System.ComponentModel >= 4.3.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kamra\\.nuget\\packages\\": {}
+    "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
+      "projectUniqueName": "C:\\Projects\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
       "projectName": "App.Domain.Core",
-      "projectPath": "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
-      "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-      "outputPath": "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\obj\\",
+      "projectPath": "C:\\Projects\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
+      "packagesPath": "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\EnterpriceApp\\App.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ITGAz.Dev.Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -416,7 +417,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.0": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "FluentValidation": {
             "target": "Package",
@@ -446,7 +448,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

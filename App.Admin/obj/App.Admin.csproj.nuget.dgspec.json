@@ -1,40 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Custom\\EnterpriceApp\\App.Admin\\App.Admin.csproj": {}
+    "C:\\Projects\\EnterpriceApp\\App.Admin\\App.Admin.csproj": {}
   },
   "projects": {
-    "D:\\Custom\\EnterpriceApp\\App.Admin\\App.Admin.csproj": {
+    "C:\\Projects\\EnterpriceApp\\App.Admin\\App.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Custom\\EnterpriceApp\\App.Admin\\App.Admin.csproj",
+        "projectUniqueName": "C:\\Projects\\EnterpriceApp\\App.Admin\\App.Admin.csproj",
         "projectName": "App.Admin",
-        "projectPath": "D:\\Custom\\EnterpriceApp\\App.Admin\\App.Admin.csproj",
-        "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\Custom\\EnterpriceApp\\App.Admin\\obj\\",
+        "projectPath": "C:\\Projects\\EnterpriceApp\\App.Admin\\App.Admin.csproj",
+        "packagesPath": "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\EnterpriceApp\\App.Admin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ITGAz.Dev.Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Custom\\EnterpriceApp\\App.Application\\App.Application.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Application\\App.Application.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Application\\App.Application.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Application\\App.Application.csproj"
               },
-              "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj"
               },
-              "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj"
               }
             }
           }
@@ -46,7 +47,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -62,25 +64,25 @@
             },
             "Microsoft.AspNetCore.Authentication.Facebook": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.AspNetCore.Authentication.Google": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -101,38 +103,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Custom\\EnterpriceApp\\App.Application\\App.Application.csproj": {
+    "C:\\Projects\\EnterpriceApp\\App.Application\\App.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Custom\\EnterpriceApp\\App.Application\\App.Application.csproj",
+        "projectUniqueName": "C:\\Projects\\EnterpriceApp\\App.Application\\App.Application.csproj",
         "projectName": "App.Application",
-        "projectPath": "D:\\Custom\\EnterpriceApp\\App.Application\\App.Application.csproj",
-        "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\Custom\\EnterpriceApp\\App.Application\\obj\\",
+        "projectPath": "C:\\Projects\\EnterpriceApp\\App.Application\\App.Application.csproj",
+        "packagesPath": "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\EnterpriceApp\\App.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ITGAz.Dev.Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
               },
-              "D:\\Custom\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj"
               }
             }
           }
@@ -144,7 +147,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -152,11 +156,11 @@
             },
             "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.2, )"
+              "version": "[3.1.0, )"
             },
             "System.ComponentModel.Annotations": {
               "target": "Package",
-              "version": "[4.7.0-preview1.19504.10, )"
+              "version": "[4.7.0, )"
             },
             "System.ComponentModel.Primitives": {
               "target": "Package",
@@ -178,32 +182,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {
+    "C:\\Projects\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Projects\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
         "projectName": "App.Domain.Core",
-        "projectPath": "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\obj\\",
+        "projectPath": "C:\\Projects\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\EnterpriceApp\\App.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ITGAz.Dev.Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -214,7 +219,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
@@ -244,38 +250,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
+    "C:\\Projects\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj",
+        "projectUniqueName": "C:\\Projects\\EnterpriceApp\\App.Domain\\App.Domain.csproj",
         "projectName": "App.Domain",
-        "projectPath": "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj",
-        "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\Custom\\EnterpriceApp\\App.Domain\\obj\\",
+        "projectPath": "C:\\Projects\\EnterpriceApp\\App.Domain\\App.Domain.csproj",
+        "packagesPath": "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\EnterpriceApp\\App.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ITGAz.Dev.Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj"
               },
-              "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj"
               }
             }
           }
@@ -287,7 +294,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
@@ -299,7 +307,7 @@
             },
             "System.ComponentModel.Annotations": {
               "target": "Package",
-              "version": "[4.7.0-preview1.19504.10, )"
+              "version": "[4.7.0, )"
             },
             "System.Security.Claims": {
               "target": "Package",
@@ -321,35 +329,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj": {
+    "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj",
+        "projectUniqueName": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj",
         "projectName": "App.Infrastructure.CrossCutting.Bus",
-        "projectPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj",
-        "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\obj\\",
+        "projectPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\App.Infrastructure.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Bus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ITGAz.Dev.Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Domain.Core\\App.Domain.Core.csproj"
               }
             }
           }
@@ -361,7 +370,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MediatR": {
               "target": "Package",
@@ -383,35 +393,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
+    "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj",
+        "projectUniqueName": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj",
         "projectName": "App.Infrastructure.CrossCutting.Identity",
-        "projectPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj",
-        "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\obj\\",
+        "projectPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj",
+        "packagesPath": "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ITGAz.Dev.Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
               }
             }
           }
@@ -423,11 +434,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19508.20, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
@@ -439,7 +451,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19508.20, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
@@ -447,39 +459,39 @@
             },
             "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.2, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.2, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.2, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.2, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.1, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.Extensions.Configuration.FileExtensions": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.1, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.1, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.1, )"
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -497,44 +509,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj": {
+    "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj",
+        "projectUniqueName": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj",
         "projectName": "App.Infrastructure.CrossCutting.IoC",
-        "projectPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj",
-        "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\obj\\",
+        "projectPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\App.Infrastructure.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ITGAz.Dev.Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Custom\\EnterpriceApp\\App.Application\\App.Application.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Application\\App.Application.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Application\\App.Application.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Application\\App.Application.csproj"
               },
-              "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
               },
-              "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.CrossCutting.Identity\\App.Infrastructure.CrossCutting.Identity.csproj"
               },
-              "D:\\Custom\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj"
               }
             }
           }
@@ -546,7 +559,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -562,35 +576,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Custom\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj": {
+    "C:\\Projects\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj",
         "projectName": "App.Infrastructure.Data",
-        "projectPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj",
-        "packagesPath": "C:\\Users\\kamra\\.nuget\\packages\\",
-        "outputPath": "D:\\Custom\\EnterpriceApp\\App.Infrastructure.Data\\obj\\",
+        "projectPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.Data\\App.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\ITGAz.Dev.Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\EnterpriceApp\\App.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ITGAz.Dev.Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "D:\\Custom\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
+              "C:\\Projects\\EnterpriceApp\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "C:\\Projects\\EnterpriceApp\\App.Domain\\App.Domain.csproj"
               }
             }
           }
@@ -602,7 +617,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "JWT": {
               "target": "Package",
@@ -610,47 +626,47 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.2, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.2, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.2, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.2, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.2, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.1, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.Extensions.Configuration.FileExtensions": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.1, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.1, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.1, )"
+              "version": "[3.1.0, )"
             },
             "System.Reflection.TypeExtensions": {
               "target": "Package",
-              "version": "[4.7.0-preview1.19504.10, )"
+              "version": "[4.7.0, )"
             }
           },
           "imports": [
@@ -668,7 +684,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
