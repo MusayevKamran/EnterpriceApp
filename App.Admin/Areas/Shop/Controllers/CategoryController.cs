@@ -1,3 +1,4 @@
+using App.Admin.Controllers;
 using App.Application.Interfaces.Shop;
 using App.Application.ViewModels.Shop;
 using App.Domain.Core.Notifications;
@@ -5,7 +6,7 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace App.Admin.Controllers
+namespace App.Admin.Areas.Shop.Controllers
 {
     [Area("Shop")]
     [Authorize]

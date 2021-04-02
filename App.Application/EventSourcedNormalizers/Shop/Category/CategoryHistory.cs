@@ -60,7 +60,6 @@ namespace App.Application.EventSourcedNormalizers.Shop.Category
                         break;
                     case "CategoryUpdatedEvent":
                         values = JsonConvert.DeserializeObject<dynamic>(e.Data);
-                        values = JsonConvert.DeserializeObject<dynamic>(e.Data);
                         slot.CategoryId = values["CategoryId"];
                         slot.CategoryName = values["CategoryName"];
                         slot.SubCategory = values["SubCategory"];

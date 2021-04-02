@@ -5,14 +5,14 @@ using System.Text;
 
 namespace App.Application.Interfaces.Shop
 {
-    public interface IAppService<ViewModel, HistoryData> : IDisposable
+    public interface IAppService<TViewModel, THistoryData> : IDisposable
     {
-        void Create(ViewModel viewModel);
-        IEnumerable<ViewModel> GetAll();
-        IEnumerable<ViewModel> GetFilteredList(Expression<Func<ViewModel, bool>> filter);
-        ViewModel GetById(int id);
-        void Update(ViewModel viewModel);
+        void Create(TViewModel viewModel);
+        IEnumerable<TViewModel> GetAll();
+        IEnumerable<TViewModel> GetFilteredList(Expression<Func<TViewModel, bool>> filter);
+        TViewModel GetById(int id);
+        void Update(TViewModel viewModel);
         void Remove(int id);
-        IList<HistoryData> GetAllHistory(int id);
+        IList<THistoryData> GetAllHistory(int id);
     }
 }

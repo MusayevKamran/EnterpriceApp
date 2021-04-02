@@ -62,7 +62,6 @@ namespace App.Application.EventSourcedNormalizers.Shop.Seller
                         break;
                     case "SellerUpdatedEvent":
                         values = JsonConvert.DeserializeObject<dynamic>(e.Data);
-                        values = JsonConvert.DeserializeObject<dynamic>(e.Data);
                         slot.SellerId = values["SellerId"];
                         slot.Name = values["Name"];
                         slot.Email = values["Email"];

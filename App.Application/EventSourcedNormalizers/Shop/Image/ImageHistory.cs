@@ -63,7 +63,6 @@ namespace App.Application.EventSourcedNormalizers.Shop.Image
                         break;
                     case "ImageUpdatedEvent":
                         values = JsonConvert.DeserializeObject<dynamic>(e.Data);
-                        values = JsonConvert.DeserializeObject<dynamic>(e.Data);
                         slot.ImageId = values["ImageId"];
                         slot.ImageLink = values["ImageLink"];
                         slot.ProfileImage = values["ProfileImage"];

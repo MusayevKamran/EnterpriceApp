@@ -69,7 +69,6 @@ namespace App.Application.EventSourcedNormalizers.Shop.Product
                         break;
                     case "ProductUpdatedEvent":
                         values = JsonConvert.DeserializeObject<dynamic>(e.Data);
-                        values = JsonConvert.DeserializeObject<dynamic>(e.Data);
                         slot.ProductId = values["ProductId"];
                         slot.ProductName = values["ProductName"];
                         slot.CategoryViewModel = values["CategoryViewModel"];

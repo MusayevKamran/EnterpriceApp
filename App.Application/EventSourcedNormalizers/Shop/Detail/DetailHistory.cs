@@ -63,7 +63,6 @@ namespace App.Application.EventSourcedNormalizers.Shop.Detail
                         break;
                     case "DetailUpdatedEvent":
                         values = JsonConvert.DeserializeObject<dynamic>(e.Data);
-                        values = JsonConvert.DeserializeObject<dynamic>(e.Data);
                         slot.DetailId = values["DetailId"];
                         slot.DetailName = values["DetailName"];
                         slot.DetailFeature = values["DetailFeature"];

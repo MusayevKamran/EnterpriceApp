@@ -62,7 +62,6 @@ namespace App.Application.EventSourcedNormalizers.Shop.Comment
                         break;
                     case "CommentUpdatedEvent":
                         values = JsonConvert.DeserializeObject<dynamic>(e.Data);
-                        values = JsonConvert.DeserializeObject<dynamic>(e.Data);
                         slot.CommentId = values["CommentId"];
                         slot.CommentContent = values["CommentContent"];
                         slot.ProductViewModel = values["ProductViewModel"];
